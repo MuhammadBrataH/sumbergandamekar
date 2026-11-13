@@ -45,16 +45,14 @@ function escapeHtml(str) {
 }
 
 function articleWaUrl(agentKey, articleTitle) {
-  const p = PHONES[agentKey];
-  const msg = agentKey === 'kantor'
-    ? `Halo Kantor Pusat PT. Sumber Ganda Mekar, saya membaca artikel "${articleTitle}" di website dan ingin meminta penawaran resmi.`
-    : `${p.greet}saya membaca artikel "${articleTitle}" di website dan ingin meminta penawaran resmi / konsultasi kebutuhan B2B kami.`;
+  const p = PHONES.uwem;
+  const msg = `${p.greet}saya membaca artikel "${articleTitle}" dan ingin meminta penawaran resmi / konsultasi kebutuhan B2B kami.`;
   return `https://wa.me/${p.wa}?text=${encodeURIComponent(msg)}`;
 }
 
-function articleWaBtn({ agent, article, location, cls, label }) {
-  const href = articleWaUrl(agent, article.title);
-  return `<a href="${href}" target="_blank" rel="noopener noreferrer" data-cta="whatsapp" data-division="${article.division}" data-service="${article.serviceSlug}" data-agent="${agent}" data-location="${location}" class="${cls}">${label} ${ARROW}</a>`;
+function articleWaBtn({ agent = 'uwem', article, location, cls, label }) {
+  const href = articleWaUrl('uwem', article.title);
+  return `<a href="${href}" target="_blank" rel="noopener noreferrer" data-cta="whatsapp" data-division="${article.division}" data-service="${article.serviceSlug}" data-agent="uwem" data-location="${location}" class="${cls}">${label} ${ARROW}</a>`;
 }
 
 /**
@@ -67,9 +65,9 @@ function renderClusterEngineeringSop(article) {
     return {
       heading: 'Protokol Penimbangan Tera Metrologi 50 Ton & Administrasi Akuisisi Scrap B2B',
       paragraphs: [
-        `Dalam setiap transaksi yang berkaitan dengan ${titleText.toLowerCase()}, transparansi pengukuran tonase adalah faktor paling krusial yang membedakan mitra korporasi resmi dari pengepul informal. PT. Sumber Ganda Mekar mengoperasikan instrumen Timbangan Jembatan Elektronik kapasitas 50.000 Kg (50 Ton) Merek SONIC Tipe A12EK (Nomor Seri 01711744) yang telah lulus uji dan memperoleh Surat Keterangan Hasil Pengujian (SKHP) Nomor PG.05.05/2283/VII/2025, serta Timbangan Elektronik kapasitas 1.000 Kg Merek SONIC Tipe A12EK (SKHP Nomor PG.05.05/2284/VII/2025) dari UPT Metrologi Legal Dinas Perdagangan dan Perindustrian Kota Bandung.`,
+        `Dalam setiap transaksi yang berkaitan dengan ${titleText.toLowerCase()}, transparansi pengukuran tonase adalah faktor paling krusial yang membedakan mitra korporasi resmi dari pengepul informal. PT. Sumber Ganda Mekar mengoperasikan instrumen Timbangan Jembatan Elektronik kapasitas 50.000 Kg (50 Ton) Merek SONIC Tipe A12EK serta Timbangan Elektronik kapasitas 1.000 Kg yang telah lulus uji dan ditera ulang resmi oleh UPT Metrologi Legal Dinas Perdagangan dan Perindustrian Kota Bandung.`,
         `Prosedur baku di fasilitas Jl. Raya Gedebage No. 95, Kota Bandung mewajibkan dua tahap penimbangan terkomputerisasi: penimbangan berat kotor (Bruto) saat armada truk pengangkut tiba dengan muatan, diikuti pembongkaran dan sortasi grade material oleh tim inspektur logam, lalu penimbangan berat kosong kendaraan (Tara). Selisih mutlak antara Bruto dan Tara menghasilkan berat bersih (Netto) yang dicetak langsung pada tiket timbang resmi dan ditandatangani bersama oleh perwakilan pemilik barang maupun petugas gudang.`,
-        `Dari sisi kepatuhan finansial dan perpajakan, PT. Sumber Ganda Mekar berstatus Pengusaha Kena Pajak (PKP) resmi (S-00313/SPPKP-CT/KPP.0903/2025) dengan NPWP 031.199.979.1-429.000 dan NIB 9120101121498 (KBLI 46796). Hal ini memastikan setiap pelepasan aset besi tua pabrik, lelang scrap korporasi, maupun pembelian material logam didukung Berita Acara Serah Terima (BAST), pelunasan cepat di hari yang sama (same-day settlement), serta dokumentasi pajak yang sah untuk keperluan audit internal dan eksternal.`
+        `Dari sisi kepatuhan finansial dan perpajakan, PT. Sumber Ganda Mekar berstatus Pengusaha Kena Pajak (PKP) resmi dengan perizinan berusaha lengkap. Hal ini memastikan setiap pelepasan aset besi tua pabrik, lelang scrap korporasi, maupun pembelian material logam didukung Berita Acara Serah Terima (BAST), pelunasan cepat di hari yang sama (same-day settlement), serta dokumentasi pajak yang sah untuk keperluan audit internal dan eksternal.`
       ]
     };
   }
@@ -78,8 +76,8 @@ function renderClusterEngineeringSop(article) {
       heading: 'Standar Verifikasi Mutu Baja SNI, Presisi Pabrikasi & Jaminan Tonase Riil',
       paragraphs: [
         `Pengadaan material struktur pada topik ${titleText.toLowerCase()} menuntut disiplin kontrol kualitas (Quality Control) yang ketat sebelum material diturunkan di lokasi proyek. Di industri konstruksi Indonesia, penyimpangan ketebalan profil atau diameter tulangan di luar batas toleransi Standar Nasional Indonesia (SNI) dapat menurunkan momen inersia penampang dan membahayakan faktor keamanan struktur bangunan.`,
-        `Untuk melindungi kontraktor dan pemilik proyek dari risiko material di bawah standar ("besi banci"), PT. Sumber Ganda Mekar menerapkan metode verifikasi ganda di gudang utama Jl. Raya Gedebage No. 95, Kota Bandung. Pertama, pemeriksaan dimensi fisik menggunakan jangka sorong digital (caliper) dan mikrometer pada sampel acak setiap bundel. Kedua, penimbangan total muatan armada pengiriman di atas Timbangan Jembatan Elektronik 50 Ton SONIC A12EK (SKHP PG.05.05/2283/VII/2025) untuk membandingkan berat aktual terhadap tabel berat teoritis SNI.`,
-        `Seluruh suplai besi beton, baja profil WF/H-Beam, CNP, pelat baja, hingga modul rangka beton siap pakai dari PT. Sumber Ganda Mekar dilengkapi Surat Jalan resmi, tiket timbangan terverifikasi, serta e-Faktur Pajak PPN (status PKP S-00313/SPPKP-CT/KPP.0903/2025). Sinergi antara ketersediaan stok partai besar dan legalitas perseroan sejak 2010 menjadikan proses pengadaan proyek berjalan tepat jadwal tanpa hambatan administrasi.`
+        `Untuk melindungi kontraktor dan pemilik proyek dari risiko material di bawah standar ("besi banci"), PT. Sumber Ganda Mekar menerapkan metode verifikasi ganda di gudang utama Jl. Raya Gedebage No. 95, Kota Bandung. Pertama, pemeriksaan dimensi fisik menggunakan jangka sorong digital (caliper) dan mikrometer pada sampel acak setiap bundel. Kedua, penimbangan total muatan armada pengiriman di atas Timbangan Jembatan Elektronik 50 Ton SONIC A12EK tera resmi untuk membandingkan berat aktual terhadap tabel berat teoritis SNI.`,
+        `Seluruh suplai besi beton, baja profil WF/H-Beam, CNP, pelat baja, hingga modul rangka beton siap pakai dari PT. Sumber Ganda Mekar dilengkapi Surat Jalan resmi, tiket timbangan terverifikasi, serta e-Faktur Pajak PPN (status PKP resmi). Sinergi antara ketersediaan stok partai besar dan legalitas perseroan sejak 2010 menjadikan proses pengadaan proyek berjalan tepat jadwal tanpa hambatan administrasi.`
       ]
     };
   }
@@ -89,7 +87,7 @@ function renderClusterEngineeringSop(article) {
       paragraphs: [
         `Pelaksanaan proyek jaringan distribusi kelistrikan, telekomunikasi serat optik (FTTH), maupun penerangan jalan umum yang berkaitan dengan ${titleText.toLowerCase()} memerlukan sinkronisasi antara ketepatan spesifikasi teknis dan ketangguhan manajemen logistik. Setiap tiang penumpu harus memenuhi parameter kelurusan sumbu, kekuatan tarik beban kerja (daN), serta perlindungan korosi atau kepadatan beton prategang agar memiliki umur layan puluhan tahun di lapangan.`,
         `PT. Sumber Ganda Mekar mengelola rantai pasok pengadaan tiang listrik, tiang telepon, dan tiang PJU dari pusat distribusi Jl. Raya Gedebage No. 95, Kota Bandung menuju berbagai titik proyek di Jawa Barat, Jabodetabek, hingga luar pulau. Sebelum armada tronton atau trailer diberangkatkan, tata letak kayu penyangga (dunnage) diperiksa guna mencegah tegangan lentur selama perjalanan, dan total tonase muatan diverifikasi pada Timbangan Jembatan 50.000 Kg SONIC A12EK resmi.`,
-        `Bagi kontraktor pelaksana tender pemerintah, BUMN, developer kawasan industri, maupun perusahaan ISP, PT. Sumber Ganda Mekar menyediakan dukungan dokumen korporat yang lengkap: NIB 9120101121498 (20 KBLI Aktif termasuk KBLI 42101), SK Kemenkumham AHU-0106760.AH.01.02.Tahun 2026, serta penerbitan Faktur Pajak PPN resmi (PKP S-00313/SPPKP-CT/KPP.0903/2025) yang menjamin kelancaran proses penagihan termin proyek.`
+        `Bagi kontraktor pelaksana tender pemerintah, BUMN, developer kawasan industri, maupun perusahaan ISP, PT. Sumber Ganda Mekar menyediakan dukungan dokumen korporat yang lengkap serta penerbitan Faktur Pajak PPN resmi (PKP terdaftar) yang menjamin kelancaran proses penagihan termin proyek.`
       ]
     };
   }
@@ -97,9 +95,9 @@ function renderClusterEngineeringSop(article) {
     return {
       heading: 'Integrasi Rekayasa Konstruksi Baja, Standar K3L & Keunggulan Rantai Pasok Internal',
       paragraphs: [
-        `Dalam eksekusi proyek konstruksi yang dibahas pada ${titleText.toLowerCase()}, keberhasilan jadwal pembangunan (on-time delivery) dan efisiensi anggaran sangat ditentukan oleh integrasi antara penyediaan material utama dan kapabilitas fabrikasi-erection di lapangan. PT. Sumber Ganda Mekar memegang izin resmi kelompok KBLI Konstruksi Gedung (41011 s/d 41019) serta Konstruksi Bangunan Sipil Jalan (42101) dengan dukungan modal dasar perseroan Rp 2.000.000.000,- dan rekam jejak operasional sejak 19 April 2010.`,
-        `Keunggulan kompetitif utama kami terletak pada kepemilikan gudang stok baja profil, besi beton, dan fasilitas pabrikasi sendiri di Gedebage, Bandung. Seluruh komponen kolom H-Beam, kuda-kuda rafter WF, pelat buhul (gusset plate), hingga angkur pondasi diproses melalui tahapan kontrol mutu dimensi, pengelasan struktural, pelapisan cat anti-korosi, serta penimbangan tonase aktual di atas Timbangan Jembatan 50 Ton SONIC A12EK (SKHP PG.05.05/2283/VII/2025) sebelum dikirim ke lokasi proyek.`,
-        `Seluruh tahapan pekerjaan di lapangan dilaksanakan dengan mematuhi Pernyataan Mandiri K3L (Keselamatan, Kesehatan Kerja, dan Lingkungan) serta dokumen SPPL resmi. Ditambah dengan status Pengusaha Kena Pajak (PKP S-00313/SPPKP-CT/KPP.0903/2025), setiap kontrak borongan konstruksi maupun suplai struktur baja dilengkapi Faktur Pajak PPN dan laporan progres teknis yang transparan bagi manajemen pemilik proyek.`
+        `Dalam eksekusi proyek konstruksi yang dibahas pada ${titleText.toLowerCase()}, keberhasilan jadwal pembangunan (on-time delivery) dan efisiensi anggaran sangat ditentukan oleh integrasi antara penyediaan material utama dan kapabilitas fabrikasi-erection di lapangan. PT. Sumber Ganda Mekar memegang izin resmi kelompok KBLI Konstruksi Gedung serta Konstruksi Bangunan Sipil Jalan dengan dukungan modal dasar perseroan Rp 2.000.000.000,- dan rekam jejak operasional sejak 19 April 2010.`,
+        `Keunggulan kompetitif utama kami terletak pada kepemilikan gudang stok baja profil, besi beton, dan fasilitas pabrikasi sendiri di Gedebage, Bandung. Seluruh komponen kolom H-Beam, kuda-kuda rafter WF, pelat buhul (gusset plate), hingga angkur pondasi diproses melalui tahapan kontrol mutu dimensi, pengelasan struktural, pelapisan cat anti-korosi, serta penimbangan tonase aktual di atas Timbangan Jembatan 50 Ton SONIC A12EK sebelum dikirim ke lokasi proyek.`,
+        `Seluruh tahapan pekerjaan di lapangan dilaksanakan dengan mematuhi Pernyataan Mandiri K3L (Keselamatan, Kesehatan Kerja, dan Lingkungan) serta dokumen SPPL resmi. Ditambah dengan status Pengusaha Kena Pajak (PKP resmi), setiap kontrak borongan konstruksi maupun suplai struktur baja dilengkapi Faktur Pajak PPN dan laporan progres teknis yang transparan bagi manajemen pemilik proyek.`
       ]
     };
   }
@@ -107,9 +105,9 @@ function renderClusterEngineeringSop(article) {
   return {
     heading: 'Kontrol Kualitas Nutrisi, Jaminan Timbangan Tera Resmi & Kontinyuitas Rantai Pasok Agribisnis',
     paragraphs: [
-      `Keberhasilan finansial usaha peternakan dan agribisnis yang berkaitan dengan ${titleText.toLowerCase()} sangat bergantung pada konsistensi mutu nutrisi di setiap batch pengiriman serta kejujuran timbangan kuantitas barang. Divisi Agribisnis PT. Sumber Ganda Mekar beroperasi secara sah di bawah payung KBLI 10801 (Industri Ransum Makanan Hewan), KBLI 10802 (Industri Konsentrat Makanan Hewan), KBLI 01191 (Pertanian Tanaman Pakan Ternak), dan KBLI 38212 (Produksi Kompos Sampah Organik) di fasilitas produksi Lembang Betook / Sukarame, Kel. Cimekar, Kec. Cileunyi, Kab. Bandung 40623.`,
-      `Setiap bahan baku pakan melewati seleksi ketat terhadap tingkat kekeringan (kadar air maksimal 13%–14%), bebas kontaminasi jamur maupun benda asing, serta pencampuran homogen untuk menjaga stabilitas Protein Kasar (PK), Total Digestible Nutrients (TDN), dan keseimbangan mineral Kalsium-Fosfor. Sebelum dikirim ke kandang mitra atau gudang koperasi, setiap karung dan armada pengangkut ditimbang secara akurat menggunakan Timbangan Elektronik 1.000 Kg (SKHP PG.05.05/2284/VII/2025) serta Timbangan Jembatan 50.000 Kg SONIC A12EK (SKHP PG.05.05/2283/VII/2025) yang disahkan UPT Metrologi Legal Kota Bandung.`,
-      `Melalui dukungan badan hukum PT. Sumber Ganda Mekar yang berdiri sejak 2010 dan berstatus PKP resmi (S-00313/SPPKP-CT/KPP.0903/2025), kami melayani baik pembelian partai grosir maupun skema kontrak suplai terjadwal untuk peternakan rakyat, perusahaan feedlot, koperasi susu, hingga pengadaan instansi pemerintah di seluruh Jawa Barat dan nasional.`
+      `Keberhasilan finansial usaha peternakan dan agribisnis yang berkaitan dengan ${titleText.toLowerCase()} sangat bergantung pada konsistensi mutu nutrisi di setiap batch pengiriman serta kejujuran timbangan kuantitas barang. Divisi Agribisnis PT. Sumber Ganda Mekar beroperasi secara sah di fasilitas produksi Lembang Betook / Sukarame, Kel. Cimekar, Kec. Cileunyi, Kab. Bandung 40623.`,
+      `Setiap bahan baku pakan melewati seleksi ketat terhadap tingkat kekeringan (kadar air maksimal 13%–14%), bebas kontaminasi jamur maupun benda asing, serta pencampuran homogen untuk menjaga stabilitas Protein Kasar (PK), Total Digestible Nutrients (TDN), dan keseimbangan mineral Kalsium-Fosfor. Sebelum dikirim ke kandang mitra atau gudang koperasi, setiap karung dan armada pengangkut ditimbang secara akurat menggunakan Timbangan Elektronik 1.000 Kg serta Timbangan Jembatan 50.000 Kg SONIC A12EK yang disahkan UPT Metrologi Legal Kota Bandung.`,
+      `Melalui dukungan badan hukum PT. Sumber Ganda Mekar yang berdiri sejak 2010 dan berstatus PKP resmi, kami melayani baik pembelian partai grosir maupun skema kontrak suplai terjadwal untuk peternakan rakyat, perusahaan feedlot, koperasi susu, hingga pengadaan instansi pemerintah di seluruh Jawa Barat dan nasional.`
     ]
   };
 }
@@ -124,34 +122,20 @@ function renderConversionBanner(article, position) {
   return `<aside class="my-10 border-2 border-[#EB2F33] bg-[#0F172A] p-6 text-white sm:p-8" aria-label="Kotak Konversi WhatsApp B2B">
     <div class="flex flex-wrap items-center justify-between gap-2 border-b border-white/15 pb-4">
       <span class="badge-cert">${badgeText}</span>
-      <span class="font-mono text-[11px] uppercase tracking-widest text-white/70">NIB: 9120101121498 • PKP Resmi • Tera 50 Ton</span>
+      <span class="font-mono text-[11px] uppercase tracking-widest text-white/70">Perusahaan PKP Resmi • Tera 50 Ton</span>
     </div>
     <div class="mt-5 grid items-center gap-6 lg:grid-cols-12">
       <div class="lg:col-span-7">
         <h3 class="text-2xl font-extrabold leading-tight tracking-tight text-white sm:text-3xl">${headingText}</h3>
-        <p class="mt-2.5 text-sm leading-relaxed text-white/80">Hubungi langsung tim Marketing &amp; Operasional kami via WhatsApp. Pesan otomatis menyertakan judul referensi artikel <strong>“${escapeHtml(article.title)}”</strong> untuk mempercepat pengecekan harga grosir dan jadwal operasional.</p>
+        <p class="mt-2.5 text-sm leading-relaxed text-white/80">Hubungi layanan WhatsApp resmi kami untuk konsultasi spesifikasi &amp; penawaran harga. Pesan otomatis menyertakan referensi website <strong>sumbergandamekar.com</strong> dan judul artikel <strong>“${escapeHtml(article.title)}”</strong>.</p>
       </div>
       <div class="flex flex-col gap-2.5 lg:col-span-5">
-        ${articleWaBtn({
-          agent: 'irwan',
-          article,
-          location: locAttr,
-          cls: 'btn-cta w-full justify-between px-5 py-3.5 text-sm',
-          label: `Chat CP. Irwan (${PHONES.irwan.display})`
-        })}
         ${articleWaBtn({
           agent: 'uwem',
           article,
           location: locAttr,
-          cls: 'btn-outline-light w-full justify-between px-5 py-3.5 text-sm',
-          label: `Chat CP. Uwem (${PHONES.uwem.display})`
-        })}
-        ${articleWaBtn({
-          agent: 'kantor',
-          article,
-          location: locAttr,
-          cls: 'btn-outline-light w-full justify-between px-5 py-2.5 text-xs',
-          label: `Hotline Kantor (${PHONES.kantor.display})`
+          cls: 'btn-cta w-full justify-between px-5 py-4 text-sm',
+          label: `Minta Penawaran via WhatsApp`
         })}
       </div>
     </div>
@@ -278,7 +262,7 @@ function buildArticleHtml(article) {
           ${article.summaryBullets.map((b, idx) => `<li class="flex items-start gap-3"><span class="mt-0.5 shrink-0 font-mono text-xs font-bold text-[#EB2F33]">[0${idx + 1}]</span><span>${escapeHtml(b)}</span></li>`).join('\n          ')}
         </ul>
         <div class="mt-5 border-t border-slate-200 pt-4 font-mono text-[11px] uppercase leading-relaxed tracking-widest text-slate-500">
-          Otoritas Data: PT. Sumber Ganda Mekar • NIB: 9120101121498 • PKP: S-00313/SPPKP-CT/KPP.0903/2025 • SKHP Tera: PG.05.05/2283/VII/2025
+          Otoritas Data: PT. Sumber Ganda Mekar • Perusahaan PKP Resmi • Tera Metrologi Legal 50 Ton
         </div>
       </div>
 
@@ -374,9 +358,9 @@ function buildArticleHtml(article) {
         </div>
         <dl class="divide-y divide-slate-200 font-mono text-xs">
           <div class="px-5 py-3"><dt class="text-[10px] uppercase text-slate-500">Perseroan</dt><dd class="mt-0.5 font-bold text-slate-900">PT. Sumber Ganda Mekar (Est. 2010)</dd></div>
-          <div class="px-5 py-3"><dt class="text-[10px] uppercase text-slate-500">NIB &amp; KBLI</dt><dd class="mt-0.5 font-bold text-slate-900">9120101121498 (20 KBLI Aktif)</dd></div>
-          <div class="px-5 py-3"><dt class="text-[10px] uppercase text-slate-500">Status Pajak PKP</dt><dd class="mt-0.5 font-bold text-slate-900">S-00313/SPPKP-CT/KPP.0903/2025</dd></div>
-          <div class="px-5 py-3"><dt class="text-[10px] uppercase text-slate-500">Tera Timbangan 50 Ton</dt><dd class="mt-0.5 font-bold text-slate-900">SONIC A12EK — PG.05.05/2283/VII/2025</dd></div>
+          <div class="px-5 py-3"><dt class="text-[10px] uppercase text-slate-500">Perizinan Usaha</dt><dd class="mt-0.5 font-bold text-slate-900">NIB Terdaftar Resmi (20 KBLI Aktif)</dd></div>
+          <div class="px-5 py-3"><dt class="text-[10px] uppercase text-slate-500">Status Pajak PKP</dt><dd class="mt-0.5 font-bold text-slate-900">PKP Resmi — Faktur Pajak PPN</dd></div>
+          <div class="px-5 py-3"><dt class="text-[10px] uppercase text-slate-500">Tera Timbangan 50 Ton</dt><dd class="mt-0.5 font-bold text-slate-900">SONIC A12EK — UPT Metrologi Legal</dd></div>
           <div class="px-5 py-3"><dt class="text-[10px] uppercase text-slate-500">Gudang &amp; Timbangan 50T</dt><dd class="mt-0.5 font-bold text-slate-900">Jl. Raya Gedebage No. 95, Bandung</dd></div>
           <div class="px-5 py-3"><dt class="text-[10px] uppercase text-slate-500">Pabrik Pakan &amp; Agribisnis</dt><dd class="mt-0.5 font-bold text-slate-900">Cimekar, Kec. Cileunyi, Kab. Bandung</dd></div>
         </dl>
@@ -562,7 +546,7 @@ function buildHubHtml() {
     <div id="wawasan-empty-state" class="hidden border border-slate-300 bg-white p-12 text-center">
       <p class="font-mono text-xs uppercase tracking-widest text-[#EB2F33]">[PENCARIAN TIDAK DITEMUKAN]</p>
       <p class="mt-2 text-xl font-bold text-slate-900">Tidak ada artikel yang cocok dengan kata kunci tersebut.</p>
-      <p class="mt-1 text-sm text-slate-600">Silakan klik tombol Reset Filter atau hubungi langsung CP. Irwan / CP. Uwem untuk konsultasi spesifikasi khusus.</p>
+      <p class="mt-1 text-sm text-slate-600">Silakan klik tombol Reset Filter atau hubungi langsung CP. Uwem untuk konsultasi spesifikasi khusus.</p>
     </div>
   </div>
 </section>
