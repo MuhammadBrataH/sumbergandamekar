@@ -1,6 +1,6 @@
 const {
-  BASE_ORG_NODE, faqSchemaNode,
-  head, hero, sectionHead, bentoCell, specSheet, quoteForm, wawasanSection, faqSection, page
+  PHOTOS, BASE_ORG_NODE, faqSchemaNode,
+  head, hero, sectionHead, bentoCell, priceCatalogSection, specSheet, quoteForm, wawasanSection, faqSection, page
 } = require('./lib');
 
 const logamArticlesAll = [
@@ -19,27 +19,27 @@ const logamFaqs = [
   {
     tag: 'PAJAK & TENDER PKP',
     q: 'Apakah PT. Sumber Ganda Mekar berstatus PKP dan bisa menerbitkan Faktur Pajak PPN untuk tender/perusahaan?',
-    a: 'Ya. PT. Sumber Ganda Mekar berstatus Pengusaha Kena Pajak (PKP) resmi (Surat Pengukuhan PKP Nomor S-00313/SPPKP-CT/KPP.0903/2025, NPWP 031.199.979.1-429.000, NIB 9120101121498). Setiap pengadaan besi baru, rangka beton/logam, tiang listrik/telepon, maupun kontrak konstruksi baja dilengkapi Faktur Pajak PPN resmi.'
+    a: 'Ya. PT. Sumber Ganda Mekar berstatus Pengusaha Kena Pajak (PKP) resmi dengan perizinan berusaha lengkap. Setiap pengadaan besi baru, rangka beton/logam, tiang listrik/telepon, maupun kontrak konstruksi baja dilengkapi Faktur Pajak PPN resmi.'
   },
   {
     tag: 'TERA METROLOGI 50 TON',
     q: 'Bagaimana jaminan keakuratan timbangan saat transaksi jual beli besi tua (scrap) partai besar?',
-    a: 'Truk tronton, dump truck, maupun kontainer ditimbang langsung di atas Timbangan Jembatan Elektronik kapasitas 50.000 Kg (50 Ton) Merek SONIC Tipe A12EK (No. Seri 01711744, SKHP PG.05.05/2283/VII/2025) serta Timbangan Elektronik 1.000 Kg (SKHP PG.05.05/2284/VII/2025) yang disahkan oleh UPT Metrologi Legal Disdagin Kota Bandung.'
+    a: 'Truk tronton, dump truck, maupun kontainer ditimbang langsung di atas Timbangan Jembatan Elektronik kapasitas 50.000 Kg (50 Ton) Merek SONIC Tipe A12EK serta Timbangan Elektronik 1.000 Kg yang telah disahkan dan ditera ulang resmi oleh UPT Metrologi Legal Disdagin Kota Bandung.'
   },
   {
     tag: 'KAPASITAS & MOQ LOGAM',
-    q: 'Berapa kapasitas minimal pemesanan tiang listrik, rangka beton, konstruksi baja, dan pakan ternak?',
+    q: 'Berapa kapasitas minimal pemesanan tiang listrik, rangka beton, konstruksi baja, dan besi?',
     a: 'Pada Divisi Logam & Konstruksi, kami menerima penjualan/pembelian besi tua (scrap pabrik, bongkaran gudang, eks mesin & alat berat) dan besi baru partai besar, pengadaan rangka beton/logam serta tiang listrik/telepon skala proyek, hingga kontrak fabrikasi & ereksi konstruksi baja gudang/pabrik di Bandung, Jawa Barat, dan nasional.'
   },
   {
     tag: 'LOKASI GUDANG & PABRIK',
-    q: 'Di mana lokasi gudang penimbangan besi dan pabrik pakan ternak PT. Sumber Ganda Mekar?',
+    q: 'Di mana lokasi gudang penimbangan besi dan pabrik PT. Sumber Ganda Mekar?',
     a: 'Gudang utama logam, konstruksi, dan fasilitas Timbangan Jembatan 50 Ton berlokasi di Jl. Raya Gedebage No. 95, RT 001/RW 008, Kel. Cisaranten Kidul, Kec. Gedebage, Kota Bandung 40294. Sedangkan unit operasional agribisnis & pabrik pakan ternak berlokasi di Lembang Betook / Sukarame, Kel. Cimekar, Kec. Cileunyi, Kab. Bandung 40623.'
   },
   {
     tag: 'PIC FAST RESPONSE WA',
     q: 'Siapa kontak resmi (PIC) untuk penawaran harga cepat via WhatsApp?',
-    a: 'Hubungi langsung PIC Sales & Operasional Divisi Logam & Konstruksi kami melalui WhatsApp: CP. Irwan (0821-1780-0626) atau CP. Uwem (0823-1818-8863) untuk kirim foto scrap, permintaan penawaran tiang/rangka, atau jadwal penimbangan 50 ton.',
+    a: 'Hubungi langsung PIC Sales & Operasional Divisi Logam & Konstruksi kami melalui WhatsApp: CP. Uwem (0823-1818-8863) untuk kirim foto scrap, pengecekan harga besi harian, permintaan penawaran tiang/rangka, atau jadwal penimbangan 50 ton.',
     withCta: true
   }
 ];
@@ -59,8 +59,8 @@ const jsonld = {
     {
       '@type': ['Service', 'Product'],
       '@id': 'https://sumbergandamekar.com/konstruksi-logam#scrap-service',
-      name: 'Jual Beli Besi Tua (Scrap) & Besi Baru Partai Besar (KBLI 46796)',
-      category: 'KBLI 46796 - Perdagangan Besar Barang Bekas dan Sisa-sisa Tak Terpakai (Scrap) & Material Logam',
+      name: 'Jual Beli Besi Tua (Scrap) & Besi Baru Partai Besar',
+      category: 'Perdagangan Besar Barang Bekas dan Sisa-sisa Tak Terpakai (Scrap) & Material Logam',
       provider: { '@id': 'https://sumbergandamekar.com/#organization' },
       brand: { '@id': 'https://sumbergandamekar.com/#organization' },
       areaServed: ['Kota Bandung', 'Kabupaten Bandung', 'Jawa Barat', 'Jabodetabek', 'Indonesia'],
@@ -110,8 +110,8 @@ const jsonld = {
     {
       '@type': ['Service', 'Product'],
       '@id': 'https://sumbergandamekar.com/konstruksi-logam#konstruksi-service',
-      name: 'Jasa Konstruksi Baja, Gedung & Jalan (KBLI 41011–41019 & 42101)',
-      category: 'KBLI 41011–41019 & 42101 - Konstruksi Gedung, Pabrik, Gudang, Jembatan & Jalan',
+      name: 'Jasa Konstruksi Baja, Gedung & Jalan',
+      category: 'Konstruksi Gedung, Pabrik, Gudang, Jembatan & Jalan',
       provider: { '@id': 'https://sumbergandamekar.com/#organization' },
       brand: { '@id': 'https://sumbergandamekar.com/#organization' },
       areaServed: ['Kota Bandung', 'Kabupaten Bandung', 'Jawa Barat', 'Jabodetabek', 'Indonesia'],
@@ -129,19 +129,37 @@ const jsonld = {
 };
 
 const headHtml = head({
-  title: 'Jual Beli Besi Tua &amp; Baru Bandung, Suplier Tiang Listrik, Rangka Beton &amp; Konstruksi Baja | PT. Sumber Ganda Mekar',
-  desc: 'Pusat jual beli besi tua (scrap pabrik/proyek) &amp; besi baru di Gedebage Bandung dengan Timbangan Jembatan 50 Ton Tera Metrologi Legal. Suplier tiang listrik/telepon, rangka beton, &amp; kontraktor konstruksi baja berstatus PKP.',
-  keywords: 'jual beli besi tua bandung, pembeli besi tua pabrik, jual scrap logam partai besar, timbangan besi tua gedebage, suplier tiang listrik beton, jual tiang telepon, kontraktor konstruksi baja bandung, jual rangka beton proyek',
+  title: 'Jual Beli Besi Tua &amp; Baru Bandung, Harga Besi Scrap, Tiang Listrik &amp; Konstruksi Baja | PT. Sumber Ganda Mekar',
+  desc: 'Pusat jual beli besi tua (scrap pabrik/proyek) &amp; besi baru di Gedebage Bandung dengan Timbangan Jembatan 50 Ton Tera Metrologi Legal. Suplier tiang listrik/telepon, rangka beton, &amp; kontraktor konstruksi baja PKP. Hubungi CP. Uwem (0823-1818-8863).',
+  keywords: 'harga besi tua bandung, jual beli besi tua bandung, pembeli besi tua pabrik, jual scrap logam partai besar, timbangan besi tua gedebage, suplier tiang listrik beton, kontraktor konstruksi baja bandung',
   canonical: 'https://sumbergandamekar.com/konstruksi-logam',
-  ogTitle: 'Jual Beli Besi Tua &amp; Baru Bandung, Suplier Tiang Listrik, Rangka Beton &amp; Konstruksi Baja | PT. Sumber Ganda Mekar',
-  ogDesc: 'Pusat jual beli besi tua (scrap pabrik/proyek) &amp; besi baru di Gedebage Bandung dengan Timbangan Jembatan 50 Ton Tera Metrologi Legal. Suplier tiang listrik/telepon, rangka beton, &amp; kontraktor konstruksi baja berstatus PKP.',
+  ogTitle: 'Jual Beli Besi Tua &amp; Baru Bandung, Harga Besi Scrap, Tiang Listrik &amp; Konstruksi Baja | PT. Sumber Ganda Mekar',
+  ogDesc: 'Pusat jual beli besi tua (scrap pabrik/proyek) &amp; besi baru di Gedebage Bandung dengan Timbangan Jembatan 50 Ton Tera Metrologi Legal. Suplier tiang listrik/telepon, rangka beton, &amp; kontraktor konstruksi baja PKP.',
   jsonld
 });
 
 const scrapExtra = `<div class="border border-slate-200 bg-[#F8FAFC] p-4">
             <span class="badge-cert">TERA RESMI 50 TON</span>
-            <p class="mt-3 font-mono text-xs uppercase leading-relaxed tracking-widest text-slate-700">Tera Metrologi Legal: SONIC A12EK — Kapasitas 50.000 Kg</p>
-            <p class="mt-2 text-sm leading-relaxed text-slate-600">Timbangan Jembatan Elektronik 50 Ton resmi — Tera UPT Metrologi Legal Kota Bandung.</p>
+            <p class="mt-3 font-mono text-xs font-bold uppercase leading-relaxed tracking-widest text-slate-800">Tera Metrologi Legal: SONIC A12EK — Kapasitas 50.000 Kg</p>
+            <p class="mt-1.5 text-sm leading-relaxed text-slate-600">Timbangan Jembatan Elektronik 50 Ton resmi — Tera UPT Metrologi Legal Kota Bandung. Pembayaran cepat &amp; transparan.</p>
+          </div>`;
+
+const rangkaExtra = `<div class="border border-slate-200 bg-[#F8FAFC] p-4">
+            <span class="badge-cert">PRECAST &amp; CUSTOM BAJA</span>
+            <p class="mt-3 font-mono text-xs font-bold uppercase leading-relaxed tracking-widest text-slate-800">Spesifikasi: Kolom/Balok Precast &amp; Rangka Logam Presisi</p>
+            <p class="mt-1.5 text-sm leading-relaxed text-slate-600">Diproduksi presisi sesuai shop drawing teknis untuk mempercepat konstruksi gudang, pabrik, dan gedung komersial.</p>
+          </div>`;
+
+const tiangExtra = `<div class="border border-slate-200 bg-[#F8FAFC] p-4">
+            <span class="badge-cert">STANDAR PROYEK UTILITY</span>
+            <p class="mt-3 font-mono text-xs font-bold uppercase leading-relaxed tracking-widest text-slate-800">Spesifikasi: Panjang 7m–13m • Beban Kerja 100–350 daN</p>
+            <p class="mt-1.5 text-sm leading-relaxed text-slate-600">Distribusi tiang beton &amp; baja standar PLN/Telkom/PJU siap kirim partai besar ke seluruh Jawa Barat dan nasional.</p>
+          </div>`;
+
+const konstruksiExtra = `<div class="border border-slate-200 bg-[#F8FAFC] p-4">
+            <span class="badge-cert">KONTRAKTOR PKP RESMI</span>
+            <p class="mt-3 font-mono text-xs font-bold uppercase leading-relaxed tracking-widest text-slate-800">Cakupan: Fabrikasi Baja WF, Gudang, Pabrik &amp; Jalan</p>
+            <p class="mt-1.5 text-sm leading-relaxed text-slate-600">Layanan borongan terintegrasi dari pengadaan material, fabrikasi hingga erection berstandar K3L &amp; Faktur Pajak PPN.</p>
           </div>`;
 
 const step = (n, t, d) =>
@@ -154,76 +172,92 @@ const step = (n, t, d) =>
 const body = `
 ${hero({
   title: ['Pusat Besi,', 'Baja &amp; Tiang', 'Proyek'],
-  sub: 'Beli dan jual besi tua/baru partai besar, pasok rangka beton/logam serta tiang listrik/telepon, hingga konstruksi baja di Bandung &amp; Jawa Barat — ditimbang jujur di timbangan jembatan 50 ton tera resmi.',
+  sub: 'Beli dan jual besi tua/baru partai besar, pasok rangka beton/logam serta tiang listrik/telepon, hingga konstruksi baja di Bandung &amp; Jawa Barat — ditimbang jujur di Timbangan Jembatan 50 Ton Tera Resmi.',
   metrics: [
     ['50.000 KG', 'Timbangan Jembatan SONIC A12EK'],
     ['1.000 KG', 'Timbangan Elektronik SONIC A12EK'],
-    ['PKP', 'Faktur Pajak PPN — Status Resmi'],
-    ['46796', 'KBLI — Besi Tua (Scrap) &amp; Besi Baru']
+    ['PKP RESMI', 'Faktur Pajak PPN — Status Resmi'],
+    ['HARGA TINGGI', 'Beli Scrap Partai Besar &amp; Bongkaran']
   ],
-  ctx
+  ctx,
+  heroImg: PHOTOS.besiWf,
+  heroCaption: 'Pusat Besi Tua/Baru, Baja WF & Konstruksi — Gedebage Bandung',
+  subImg1: PHOTOS.scrap,
+  subLabel1: 'Terima Scrap Timbangan 50 Ton',
+  subImg2: PHOTOS.tiangListrik,
+  subLabel2: 'Suplai Tiang Listrik & Rangka',
+  catalogAnchor: '#katalog-harga'
 })}
 
 <!-- [01] 4 LAYANAN -->
 <section id="layanan-logam" class="scroll-mt-24 bg-[#F8FAFC] py-20 lg:py-28">
   <div class="wrap">
-    ${sectionHead('01', 'Layanan Divisi Logam Bandung', 'Empat layanan.<br />Satu fokus: proyek Anda.', 'Setiap layanan dilengkapi kontak langsung ke CP. Irwan (0821-1780-0626) dan CP. Uwem (0823-1818-8863) dengan pesan otomatis sesuai kebutuhan proyek di Bandung, Jawa Barat, maupun nasional.')}
+    ${sectionHead('01', 'Layanan Divisi Logam Bandung', 'Empat layanan.<br />Satu fokus: proyek Anda.', 'Setiap layanan dilengkapi dokumentasi produk, jaminan timbangan resmi, dan layanan konsultasi cepat untuk penawaran harga di Bandung, Jawa Barat, maupun nasional.')}
     <div class="grid gap-px border border-slate-200 bg-slate-200 lg:grid-cols-12">
     ${bentoCell({
-      id: 'scrap', idx: '01', tag: 'KBLI 46796 — SCRAP LOGAM', span: 'lg:col-span-7', big: true,
+      id: 'scrap', idx: '01', tag: 'SCRAP LOGAM & BESI BARU', span: 'lg:col-span-6', big: true,
+      img: PHOTOS.scrap, imgCaption: 'Jual Beli Besi Tua (Scrap) & Besi Baru Partai Besar',
       title: 'Jual Beli Besi Tua (Scrap) &amp; Besi Baru',
-      desc: 'Menerima dan membeli bongkaran pabrik, mesin industri, alat berat, dan skrap logam partai besar dengan harga kompetitif &amp; pembayaran cepat. Menyediakan pula stok besi baru untuk kebutuhan industri dan proyek.',
+      desc: 'Menerima dan membeli bongkaran pabrik, mesin industri, alat berat, dan skrap logam partai besar dengan harga kompetitif. Menyediakan pula stok besi baru WF, H-Beam, dan Besi Beton SNI untuk proyek.',
       extra: scrapExtra, ctaLabel: 'Jual / Beli Besi Sekarang', msg: 'scrap', service: 'besi_tua_baru', division: 'logam'
     })}
     ${bentoCell({
-      id: 'rangka', idx: '02', tag: 'SUPLAI — RANGKA BETON/LOGAM', span: 'lg:col-span-5',
+      id: 'rangka', idx: '02', tag: 'SUPLAI — RANGKA BETON/LOGAM', span: 'lg:col-span-6', big: true,
+      img: PHOTOS.rangkaBeton, imgCaption: 'Rangka Beton Bertulang & Struktur Logam',
       title: 'Rangka Beton &amp; Struktur Logam Siap Pakai',
-      desc: 'Penyediaan berbagai rangka beton bertulang dan struktur logam presisi siap pakai untuk mempercepat proyek pengecoran, gudang, dan bangunan komersial.',
-      ctaLabel: 'Minta Penawaran Rangka', msg: 'rangka', service: 'rangka_beton', division: 'logam'
+      desc: 'Penyediaan berbagai komponen rangka beton bertulang, kolom praktis, dan struktur logam presisi siap pakai untuk mempercepat jadwal proyek pengecoran, gudang, serta bangunan komersial.',
+      extra: rangkaExtra, ctaLabel: 'Minta Penawaran Rangka', msg: 'rangka', service: 'rangka_beton', division: 'logam'
     })}
     ${bentoCell({
-      id: 'tiang', idx: '03', tag: 'SUPLAI — TIANG LISTRIK/TELP', span: 'lg:col-span-5',
+      id: 'tiang', idx: '03', tag: 'SUPLAI — TIANG LISTRIK/TELP', span: 'lg:col-span-6', big: true,
+      img: PHOTOS.tiangListrik, imgCaption: 'Suplai Tiang Listrik Beton/Baja & Tiang Telepon',
       title: 'Suplai Tiang Listrik &amp; Tiang Telepon',
-      desc: 'Memasok tiang beton dan tiang logam standar proyek untuk instalasi jaringan listrik, telekomunikasi, penerangan jalan, dan kawasan industri di Jawa Barat maupun nasional.',
-      ctaLabel: 'Cek Stok &amp; Harga Tiang', msg: 'tiang', service: 'tiang_listrik', division: 'logam'
+      desc: 'Memasok tiang beton prategang dan tiang logam standar proyek untuk instalasi jaringan distribusi listrik, telekomunikasi fiber optik, penerangan jalan (PJU), dan kawasan industri.',
+      extra: tiangExtra, ctaLabel: 'Cek Stok &amp; Harga Tiang', msg: 'tiang', service: 'tiang_listrik', division: 'logam'
     })}
     ${bentoCell({
-      id: 'konstruksi', idx: '04', tag: 'KBLI 41011–41019 &amp; 42101', span: 'lg:col-span-7', big: true,
+      id: 'konstruksi', idx: '04', tag: 'KONTRAKTOR — KONSTRUKSI BAJA', span: 'lg:col-span-6', big: true,
+      img: PHOTOS.konstruksiBaja, imgCaption: 'Fabrikasi & Erection Konstruksi Baja Gudang / Pabrik',
       title: 'Jasa Konstruksi Baja, Gedung &amp; Jalan',
-      desc: 'Fabrikasi dan instalasi konstruksi baja kokoh untuk gudang, pabrik, jembatan, gedung perkantoran/industri, hingga konstruksi jalan sesuai standar K3L.',
-      ctaLabel: 'Konsultasi Konstruksi Baja', msg: 'konstruksi', service: 'konstruksi_baja', division: 'logam'
+      desc: 'Layanan kontraktor fabrikasi dan instalasi konstruksi baja kokoh untuk pembangunan gudang, pabrik, jembatan, gedung perkantoran/industri, hingga perkerasan jalan proyek sesuai K3L.',
+      extra: konstruksiExtra, ctaLabel: 'Konsultasi Konstruksi Baja', msg: 'konstruksi', service: 'konstruksi_baja', division: 'logam'
     })}
     </div>
   </div>
 </section>
 
+<!-- [02] TABEL HARGA BESI & KONSTRUKSI -->
+${priceCatalogSection({ idx: '02', includePakan: false, defaultTab: 'scrap' })}
+
+<!-- [03] JAMINAN TIMBANGAN -->
 ${specSheet({
-  id: 'jaminan-timbangan', idx: '02', label: 'Jaminan Timbangan Gedebage',
+  id: 'jaminan-timbangan', idx: '03', label: 'Jaminan Timbangan Gedebage',
   h2: 'Timbangan jujur.<br />Anti-curang.',
   intro: 'Setiap tonase dicatat pada instrumen yang telah disahkan dan ditera ulang oleh UPT Metrologi Legal Dinas Perdagangan dan Perindustrian Kota Bandung.',
   headline: 'Timbangan<br />Jembatan<br />50.000 Kg',
   withLegal: false, ctx
 })}
 
-<!-- [03] ALUR -->
-<section class="border-t border-slate-200 bg-white py-20 lg:py-28">
+<!-- [04] ALUR -->
+<section class="section-blend-light border-t border-slate-200 py-20 lg:py-28">
   <div class="wrap">
-    ${sectionHead('03', 'Alur Transaksi B2B', 'Tiga langkah.<br />Tanpa berbelit.')}
+    ${sectionHead('04', 'Alur Transaksi B2B', 'Tiga langkah.<br />Tanpa berbelit.')}
     <div class="grid gap-10 md:grid-cols-3">
-      ${step('01', 'Hubungi CP. Irwan / CP. Uwem', 'Kirim daftar scrap atau spesifikasi kebutuhan besi, rangka, tiang, maupun proyek konstruksi baja via WhatsApp.')}
-      ${step('02', 'Penimbangan di Gedebage Bandung', 'Muatan ditimbang pada Timbangan Jembatan 50 Ton tera resmi di Jl. Raya Gedebage No. 95, Kota Bandung.')}
-      ${step('03', 'Penyelesaian &amp; Faktur PKP', 'Pembayaran cepat sesuai hasil timbangan resmi, dengan faktur pajak PPN karena status PKP terdaftar.')}
+      ${step('01', 'Kirim Spesifikasi via WhatsApp', 'Kirim foto/daftar scrap atau spesifikasi kebutuhan besi, rangka, tiang, maupun proyek konstruksi baja melalui layanan WhatsApp resmi kami.')}
+      ${step('02', 'Penimbangan di Gedebage Bandung', 'Muatan ditimbang secara terbuka pada Timbangan Jembatan 50 Ton tera resmi di Jl. Raya Gedebage No. 95, Kota Bandung.')}
+      ${step('03', 'Pelunasan Cepat &amp; Faktur PKP', 'Pembayaran lunas sesuai hasil timbangan resmi, dilengkapi Faktur Pajak PPN untuk pengadaan korporasi berstatus PKP.')}
     </div>
   </div>
 </section>
 
+<!-- [05] QUOTE FORM -->
 ${quoteForm({
   division: 'logam',
-  labels: { idx: '04' },
+  labels: { idx: '05' },
   heading: 'Kirim penawaran besi &amp; konstruksi ke WhatsApp.',
-  intro: 'Isi spesifikasi singkat — pesan terformat rapi dan langsung terkirim ke CP. Irwan atau CP. Uwem.',
+  intro: 'Isi spesifikasi singkat — pesan terformat rapi dan langsung terkirim ke CP. Uwem.',
   services: [
-    ['besi_tua_baru', '1. Jual Beli Besi Tua (Scrap) &amp; Besi Baru (KBLI 46796)'],
+    ['besi_tua_baru', '1. Jual Beli Besi Tua (Scrap) &amp; Besi Baru'],
     ['rangka_beton', '2. Rangka Beton &amp; Struktur Logam Siap Pakai'],
     ['tiang_listrik', '3. Suplai Tiang Listrik &amp; Tiang Telepon'],
     ['konstruksi_baja', '4. Jasa Konstruksi Baja, Gedung &amp; Jalan']
@@ -234,19 +268,21 @@ ${quoteForm({
   defaultMsg: 'scrap', defaultService: 'besi_tua_baru'
 })}
 
+<!-- [06] WAWASAN -->
 ${wawasanSection({
-  idx: '05',
+  idx: '06',
   h2: 'Spesifikasi logam,<br />tiang &amp; konstruksi baja.',
   intro: 'Panduan teknis pengadaan besi baru WF/H-Beam, jual beli scrap pabrik di Timbangan 50 Ton, rangka beton siap pakai, spesifikasi tiang listrik/telepon, hingga konstruksi gudang.',
   articles: featuredLogamArticles
 })}
 
+<!-- [07] FAQ -->
 ${faqSection({
-  idx: '06',
+  idx: '07',
   intro: 'Pertanyaan teknis seputar penjualan besi tua/scrap pabrik, sertifikasi Timbangan Jembatan 50 Ton SONIC A12EK, suplai tiang listrik/rangka beton, dan kontrak konstruksi baja PKP.',
   faqs: logamFaqs,
   ctx
 })}
 `;
 
-module.exports = page({ headHtml, active: 'logam', body, ctx });
+module.exports = page({ headHtml, active: 'logam', body, ctx, withMap: true, mapIdx: '08' });

@@ -171,8 +171,12 @@ ${hero({
     ['RP 2 M', 'Modal Dasar Perseroan Resmi']
   ],
   ctx,
-  heroImg: PHOTOS.heroHome,
-  heroCaption: 'Gudang Utama & Timbangan 50 Ton — Jl. Raya Gedebage No. 95 Bandung',
+  heroImg: PHOTOS.konstruksiBaja,
+  heroCaption: 'Konstruksi Baja, Material Logam & Timbangan 50 Ton — Bandung',
+  subImg1: PHOTOS.scrap,
+  subLabel1: 'Besi Tua (Scrap) & Besi Baru',
+  subImg2: PHOTOS.heroPakan,
+  subLabel2: 'Pabrik Ransum & Pakan Ternak',
   catalogAnchor: '#katalog-harga'
 })}
 
@@ -245,57 +249,62 @@ ${hero({
     ${sectionHead('02', 'Dua Divisi Utama PT. Sumber Ganda Mekar', 'Dua unit bisnis mandiri.<br />Satu payung korporasi.', 'Setiap divisi dikelola dengan fasilitas khusus: Gudang &amp; Timbangan 50 Ton di Gedebage untuk Divisi Logam &amp; Konstruksi, serta Pabrik Pengolahan di Cileunyi untuk Divisi Agribisnis &amp; Pakan Ternak.')}
     <div class="grid gap-px border border-slate-200 bg-slate-200 lg:grid-cols-12">
 
-      <!-- Divisi 01 -->
-      <article class="group flex flex-col bg-white lg:col-span-7">
-        <div class="flex items-center justify-between gap-3 border-b border-slate-100 px-6 py-4 sm:px-8">
-          <span class="font-mono text-xs font-bold tracking-widest text-[#2C99D6]">[DIVISI 01 — GEDEBAGE]</span>
-          <span class="tag-mono">[Divisi Logam &amp; Konstruksi Baja]</span>
-        </div>
-        <div class="img-card-wrap border-b border-slate-200">
-          <img src="${PHOTOS.besiWf}" alt="Divisi Logam, Tiang & Konstruksi Baja Bandung" class="img-card-lg" loading="lazy" />
-          <span class="img-overlay-badge">Pusat Besi Tua/Baru, Tiang &amp; Konstruksi Baja</span>
-        </div>
-        <div class="flex-1 px-6 pb-4 pt-7 sm:px-8">
-          <h3 class="text-3xl font-bold leading-tight tracking-tight text-slate-900 lg:text-4xl">Logam, Tiang &amp; Konstruksi Baja Bandung</h3>
-          <p class="mt-4 max-w-xl leading-relaxed text-slate-600">Pusat jual beli besi tua/baru partai besar, rangka beton/logam siap pakai, suplai tiang listrik/telepon, dan kontraktor konstruksi baja — ditimbang jujur di Timbangan 50 Ton Gedebage, Kota Bandung.</p>
-          <div class="mt-6 border-b border-slate-200">
-          ${row('01', 'Jual Beli Besi Tua (Scrap) &amp; Besi Baru', 'Harga Kompetitif', 'konstruksi-logam.html#scrap')}
-          ${row('02', 'Rangka Beton &amp; Struktur Logam Siap Pakai', 'Precast &amp; Custom', 'konstruksi-logam.html#rangka')}
-          ${row('03', 'Suplai Tiang Listrik &amp; Tiang Telepon', 'Standar Proyek', 'konstruksi-logam.html#tiang')}
-          ${row('04', 'Jasa Konstruksi Baja, Gedung &amp; Jalan', 'Kontraktor PKP', 'konstruksi-logam.html#konstruksi')}
+      <!-- Divisi 01 (50% Left) -->
+      <article class="group card-blend-logam flex flex-col justify-between lg:col-span-6">
+        <div>
+          <div class="flex items-center justify-between gap-3 border-b border-slate-300/80 px-6 py-4 sm:px-8">
+            <span class="font-mono text-xs font-bold tracking-widest text-[#1B6CA8]">[DIVISI 01 — GEDEBAGE]</span>
+            <span class="border border-slate-400/60 bg-white/70 px-2.5 py-1 font-mono text-xs uppercase tracking-widest text-slate-800">[Divisi Logam &amp; Konstruksi Baja]</span>
+          </div>
+          <div class="img-card-wrap border-b border-slate-300/80">
+            <img src="${PHOTOS.besiWf}" alt="Divisi Logam, Tiang & Konstruksi Baja Bandung" class="img-card-lg" loading="lazy" />
+            <span class="img-overlay-badge">Pusat Besi Tua/Baru, Tiang &amp; Konstruksi Baja</span>
+          </div>
+          <div class="px-6 pb-4 pt-7 sm:px-8">
+            <h3 class="text-2xl font-bold leading-tight tracking-tight text-slate-900 sm:text-3xl">Logam, Tiang &amp; Konstruksi Baja</h3>
+            <p class="mt-3.5 leading-relaxed text-slate-700">Pusat jual beli besi tua/baru partai besar, rangka beton/logam siap pakai, suplai tiang listrik/telepon, dan kontraktor konstruksi baja di Gedebage, Kota Bandung.</p>
+            <div class="mt-6 border-b border-slate-300/80">
+            ${row('01', 'Jual Beli Besi Tua (Scrap) &amp; Besi Baru', 'Harga Kompetitif', 'konstruksi-logam.html#scrap')}
+            ${row('02', 'Rangka Beton &amp; Struktur Logam Siap Pakai', 'Precast &amp; Custom', 'konstruksi-logam.html#rangka')}
+            ${row('03', 'Suplai Tiang Listrik &amp; Tiang Telepon', 'Standar Proyek', 'konstruksi-logam.html#tiang')}
+            ${row('04', 'Jasa Konstruksi Baja, Gedung &amp; Jalan', 'Kontraktor PKP', 'konstruksi-logam.html#konstruksi')}
+            </div>
           </div>
         </div>
-        <div class="mx-6 mb-8 mt-4 border-t border-slate-100 pt-5 sm:mx-8">
+        <div class="mx-6 mb-8 mt-4 border-t border-slate-300/80 pt-5 sm:mx-8">
           <div class="grid gap-3 sm:grid-cols-2">
-            <a href="konstruksi-logam.html" class="btn-dark w-full">Halaman Khusus Divisi Logam →</a>
-            ${waPair({ msg: 'divLogam', division: 'logam', service: 'divisi_logam_konstruksi', location: 'service_card', label: `Chat CP. Uwem (Logam) ${ARROW}` })}
+            <a href="konstruksi-logam.html" class="btn-dark w-full">Halaman Divisi Logam →</a>
+            ${waPair({ msg: 'divLogam', division: 'logam', service: 'divisi_logam_konstruksi', location: 'service_card', label: `Konsultasi Divisi Logam ${ARROW}` })}
           </div>
         </div>
       </article>
 
-      <!-- Divisi 02 -->
-      <article class="group hero-canvas flex flex-col text-white lg:col-span-5">
-        <div class="flex items-center justify-between gap-3 border-b border-white/25 px-6 py-4 sm:px-8">
-          <span class="font-mono text-xs font-bold tracking-widest">[DIVISI 02 — CILEUNYI]</span>
-          <span class="border border-white/40 px-2.5 py-1 font-mono text-xs uppercase tracking-widest">[Divisi Pakan Ternak]</span>
-        </div>
-        <div class="img-card-wrap border-b border-white/25">
-          <img src="${PHOTOS.heroPakan}" alt="Divisi Agribisnis & Pabrik Pakan Ternak Bandung" class="img-card-lg" loading="lazy" />
-          <span class="img-overlay-badge">Pabrik Ransum, Konsentrat &amp; Agribisnis</span>
-        </div>
-        <div class="flex-1 px-6 pb-4 pt-7 sm:px-8">
-          <h3 class="text-3xl font-bold leading-tight tracking-tight lg:text-4xl">Ransum, Konsentrat &amp; Pakan Ternak</h3>
-          <p class="mt-4 leading-relaxed text-white">Produsen langsung ransum dan konsentrat pakan hewan, hijauan pakan ternak, serta kompos organik — fasilitas produksi di Cileunyi &amp; distribusi Gedebage Bandung.</p>
-          <div class="mt-6 border-b border-white/25">
-          ${row('01', 'Industri Ransum Makanan Hewan', 'Grosir Pabrik', 'pakan-ternak.html#ransum', true)}
-          ${row('02', 'Industri Konsentrat Makanan Hewan', 'Sapi, Domba &amp; Unggas', 'pakan-ternak.html#konsentrat', true)}
-          ${row('03', 'Tanaman Pakan &amp; Kompos Organik', 'Kebun Cileunyi', 'pakan-ternak.html#hijauan-kompos', true)}
+      <!-- Divisi 02 (50% Right) -->
+      <article class="group hero-canvas hero-canvas-pakan flex flex-col justify-between text-white lg:col-span-6">
+        <div>
+          <div class="flex items-center justify-between gap-3 border-b border-white/25 px-6 py-4 sm:px-8">
+            <span class="font-mono text-xs font-bold tracking-widest">[DIVISI 02 — CILEUNYI]</span>
+            <span class="border border-white/40 px-2.5 py-1 font-mono text-xs uppercase tracking-widest">[Divisi Pakan Ternak]</span>
+          </div>
+          <div class="img-card-wrap border-b border-white/25">
+            <img src="${PHOTOS.heroPakan}" alt="Divisi Agribisnis & Pabrik Pakan Ternak Bandung" class="img-card-lg" loading="lazy" />
+            <span class="img-overlay-badge">Pabrik Ransum, Konsentrat &amp; Agribisnis</span>
+          </div>
+          <div class="px-6 pb-4 pt-7 sm:px-8">
+            <h3 class="text-2xl font-bold leading-tight tracking-tight sm:text-3xl">Ransum, Konsentrat &amp; Pakan Ternak</h3>
+            <p class="mt-3.5 leading-relaxed text-white">Produsen langsung ransum dan konsentrat pakan hewan berprotein tinggi, budidaya hijauan pakan ternak, serta kompos organik di Cileunyi &amp; Gedebage Bandung.</p>
+            <div class="mt-6 border-b border-white/25">
+            ${row('01', 'Industri Ransum Makanan Hewan Siap Saji', 'Grosir Pabrik', 'pakan-ternak.html#ransum', true)}
+            ${row('02', 'Industri Konsentrat Pakan Sapi &amp; Domba', 'Protein Tinggi', 'pakan-ternak.html#konsentrat', true)}
+            ${row('03', 'Pertanian Tanaman Pakan Ternak Hijauan', 'Kebun Cileunyi', 'pakan-ternak.html#hijauan-kompos', true)}
+            ${row('04', 'Produksi Pupuk Kompos Organik Murni', 'Ramah Lingkungan', 'pakan-ternak.html#hijauan-kompos', true)}
+            </div>
           </div>
         </div>
         <div class="mx-6 mb-8 mt-4 border-t border-white/25 pt-5 sm:mx-8">
-          <div class="grid gap-3">
-            <a href="pakan-ternak.html" class="btn-light w-full">Halaman Khusus Divisi Pakan Ternak →</a>
-            ${waPair({ msg: 'divPakan', division: 'pakan', service: 'divisi_pakan_ternak', location: 'service_card', variant: 'light', label: `Chat CP. Uwem (Pakan Ternak) ${ARROW}` })}
+          <div class="grid gap-3 sm:grid-cols-2">
+            <a href="pakan-ternak.html" class="btn-light w-full">Halaman Divisi Pakan →</a>
+            ${waPair({ msg: 'divPakan', division: 'pakan', service: 'divisi_pakan_ternak', location: 'service_card', variant: 'light', label: `Konsultasi Divisi Pakan ${ARROW}` })}
           </div>
         </div>
       </article>
@@ -311,12 +320,12 @@ ${specSheet({
   id: 'legalitas', anchorId: 'timbangan-50-ton', idx: '04', label: 'Legalitas &amp; Tera Metrologi',
   h2: 'Bukti legalitas.<br />Bukan sekadar klaim.',
   intro: 'Seluruh perizinan perseroan, status perpajakan PKP resmi, dan sertifikasi Timbangan Jembatan 50 Ton tersedia untuk menjamin keamanan transaksi tender maupun pengadaan korporasi.',
-  headline: 'Timbangan<br />Jembatan<br />50.000 Kg',
+  headline: 'Perseroan<br />Resmi &amp; PKP<br />Terverifikasi',
   withLegal: true, ctx
 })}
 
 <!-- [05] KOMISARIS -->
-<section class="border-t border-slate-200 bg-white py-20 lg:py-28">
+<section class="section-blend-light border-t border-slate-200 py-20 lg:py-28">
   <div class="wrap">
     ${sectionHead('05', 'Komitmen Pendiri &amp; Manajemen', 'Prinsip dasar.<br />Stabilitas jangka panjang.')}
     <div class="grid gap-14 lg:grid-cols-12">
