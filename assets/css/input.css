@@ -41,6 +41,15 @@
     text-transform: uppercase;
     color: #FFFFFF;
   }
+  .hero-title-split {
+    font-family: 'Anton', 'Bebas Neue', Impact, sans-serif;
+    font-weight: 400;
+    font-size: clamp(2.85rem, 6.2vw, 5.5rem);
+    line-height: 0.92;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
   .display-h2 {
     font-family: 'Anton', 'Bebas Neue', Impact, sans-serif;
     font-weight: 400;
@@ -51,14 +60,80 @@
     color: #0F172A;
   }
 
-  /* ---------- Sky Blue canvas: technical grid + fine noise ---------- */
+  /* ---------- Sky Blue canvas: industrial photo blend + technical grid ---------- */
   .hero-canvas {
     position: relative;
-    background-color: #2C99D6;
+    background-color: #1B6CA8;
     background-image:
-      linear-gradient(to right, #ffffff12 1px, transparent 1px),
-      linear-gradient(to bottom, #ffffff12 1px, transparent 1px);
-    background-size: 4rem 4rem;
+      linear-gradient(to right, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+      radial-gradient(circle at 80% 20%, rgba(44, 153, 214, 0.35), transparent 55%),
+      linear-gradient(135deg, rgba(15, 56, 98, 0.90) 0%, rgba(27, 108, 168, 0.86) 50%, rgba(44, 153, 214, 0.84) 100%),
+      url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=75');
+    background-size: 4rem 4rem, 4rem 4rem, 100% 100%, 100% 100%, cover;
+    background-position: 0 0, 0 0, center, center, center;
+  }
+  /* Beranda: Dual-blend (Left: Besi/Konstruksi Baja | Right: Agribisnis/Peternakan) */
+  .hero-canvas-home {
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+      linear-gradient(90deg, transparent 32%, rgba(22, 88, 145, 0.92) 50%, transparent 68%),
+      linear-gradient(135deg, rgba(15, 56, 98, 0.86) 0%, rgba(27, 108, 168, 0.83) 50%, rgba(44, 153, 214, 0.81) 100%),
+      url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=75'),
+      url('https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=1200&q=75');
+    background-size: 4rem 4rem, 4rem 4rem, 100% 100%, 100% 100%, 54% 100%, 54% 100%;
+    background-position: 0 0, 0 0, center, center, left center, right center;
+    background-repeat: repeat, repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  }
+  /* Divisi Pakan Ternak: Agribisnis & Peternakan blend */
+  .hero-canvas-pakan {
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+      radial-gradient(circle at 80% 20%, rgba(44, 153, 214, 0.32), transparent 55%),
+      linear-gradient(135deg, rgba(15, 56, 98, 0.88) 0%, rgba(27, 108, 168, 0.84) 50%, rgba(44, 153, 214, 0.82) 100%),
+      url('https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=1600&q=75');
+    background-size: 4rem 4rem, 4rem 4rem, 100% 100%, 100% 100%, cover;
+    background-position: 0 0, 0 0, center, center, center;
+  }
+  /* Card Divisi 01 (Logam & Baja): Metallic Steel-Slate Blend */
+  .card-blend-logam {
+    position: relative;
+    background-color: #E2E8F0;
+    background-image:
+      linear-gradient(to right, rgba(15, 23, 42, 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(15, 23, 42, 0.06) 1px, transparent 1px),
+      radial-gradient(circle at 15% 20%, rgba(44, 153, 214, 0.16), transparent 55%),
+      linear-gradient(135deg, rgba(226, 235, 245, 0.85) 0%, rgba(238, 244, 250, 0.83) 50%, rgba(222, 233, 244, 0.80) 100%),
+      url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=75');
+    background-size: 4rem 4rem, 4rem 4rem, 100% 100%, 100% 100%, cover;
+    background-position: 0 0, 0 0, center, center, center;
+  }
+  .card-blend-logam > * { position: relative; z-index: 1; }
+  .section-blend-light {
+    position: relative;
+    background-color: #F8FAFC;
+    background-image:
+      linear-gradient(to right, rgba(15, 23, 42, 0.035) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(15, 23, 42, 0.035) 1px, transparent 1px),
+      radial-gradient(circle at 88% 15%, rgba(44, 153, 214, 0.11), transparent 48%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.94) 0%, rgba(248, 250, 252, 0.92) 100%),
+      url('https://images.unsplash.com/photo-1535732759880-bbd5c7265e3f?auto=format&fit=crop&w=1600&q=70');
+    background-size: 4rem 4rem, 4rem 4rem, 100% 100%, 100% 100%, cover;
+    background-position: 0 0, 0 0, center, center, center;
+  }
+  .footer-blend-dark {
+    position: relative;
+    background-color: #0F172A;
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+      radial-gradient(circle at 18% 0%, rgba(44, 153, 214, 0.24), transparent 52%),
+      linear-gradient(180deg, rgba(15, 23, 42, 0.91) 0%, rgba(9, 14, 26, 0.96) 100%),
+      url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1600&q=70');
+    background-size: 4rem 4rem, 4rem 4rem, 100% 100%, 100% 100%, cover;
+    background-position: 0 0, 0 0, center, center, center;
   }
   .hero-canvas::after {
     content: "";
@@ -98,9 +173,11 @@
 
   /* ---------- Header: blends into hero, turns white on scroll ---------- */
   .site-header {
-    background-color: #2C99D6;
+    background-color: rgba(16, 64, 110, 0.82);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     color: #FFFFFF;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
     transition: background-color .2s ease, color .2s ease, border-color .2s ease;
   }
   .site-header.is-scrolled {
@@ -201,30 +278,145 @@
     border-color: #0F172A;
     box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
   }
+  .price-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.25rem;
+    border-bottom: 1px solid #E2E8F0;
+    background-color: #FFFFFF;
+    padding: 1.25rem;
+    transition: background-color 0.15s ease;
+  }
+  .price-row:hover {
+    background-color: #F8FAFC;
+  }
+  .price-row-footer {
+    background-color: #F1F5F9;
+    border-bottom: 0;
+  }
+  .price-row-footer:hover {
+    background-color: #F1F5F9;
+  }
+  @media (min-width: 640px) {
+    .price-row {
+      flex-direction: row;
+      align-items: center;
+      padding: 1.5rem;
+    }
+  }
+  .price-row-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    min-width: 0;
+    flex: 1 1 0%;
+  }
+  .price-row-right {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.65rem;
+    border-top: 1px solid #F1F5F9;
+    padding-top: 0.75rem;
+    width: 100%;
+  }
+  @media (min-width: 640px) {
+    .price-row-right {
+      width: 280px;
+      flex-shrink: 0;
+      border-top: 0;
+      padding-top: 0;
+    }
+  }
   .price-badge {
-    display: inline-block;
+    display: block;
+    width: 100%;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 0.95rem;
+    font-size: 0.92rem;
     font-weight: 700;
     color: #0F172A;
     background-color: #F1F5F9;
     border-left: 3px solid #2C99D6;
-    padding: 0.35rem 0.75rem;
+    padding: 0.4rem 0.75rem;
   }
   .price-badge-red {
-    display: inline-block;
+    display: block;
+    width: 100%;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 0.95rem;
+    font-size: 0.92rem;
     font-weight: 700;
     color: #EB2F33;
     background-color: #FEF2F2;
     border-left: 3px solid #EB2F33;
-    padding: 0.35rem 0.75rem;
+    padding: 0.4rem 0.75rem;
   }
   .map-frame {
     width: 100%;
     height: 290px;
     border: 0;
     display: block;
+  }
+
+  /* ---------- Hero Opsi A: Balanced 2-Column Split + Bottom Stats Bar ---------- */
+  .hero-visual-card {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    background-color: #0F172A;
+    box-shadow: 0 24px 40px -12px rgba(15, 23, 42, 0.45);
+    overflow: hidden;
+  }
+  .hero-visual-main {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  @media (min-width: 640px) {
+    .hero-visual-main {
+      height: 265px;
+    }
+  }
+  .hero-visual-sub {
+    width: 100%;
+    height: 105px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .hero-metrics-bar {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    background-color: rgba(15, 23, 42, 0.24);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+  @media (min-width: 1024px) {
+    .hero-metrics-bar {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  .hero-metric-item {
+    padding: 1.1rem 1.25rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .hero-metric-item:nth-child(1),
+  .hero-metric-item:nth-child(2) {
+    border-top: 0;
+  }
+  .hero-metric-item:nth-child(even) {
+    border-left: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  @media (min-width: 1024px) {
+    .hero-metric-item {
+      padding: 1.35rem 1.6rem;
+      border-top: 0;
+      border-left: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .hero-metric-item:first-child {
+      border-left: 0;
+    }
   }
 }
