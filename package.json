@@ -1,0 +1,17 @@
+{
+  "name": "sumbergandamekar-b2b-web",
+  "version": "1.0.0",
+  "description": "High-Speed B2B Lead Generation Website & Google Ads Landing Pages for PT. Sumber Ganda Mekar (sumbergandamekar.com)",
+  "main": "server.js",
+  "scripts": {
+    "build": "node build.js && node scripts/generate-seo-articles.js && npm run build:css",
+    "build:articles": "node scripts/generate-seo-articles.js",
+    "build:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
+

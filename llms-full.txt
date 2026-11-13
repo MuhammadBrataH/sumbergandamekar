@@ -1,0 +1,462 @@
+# PT. Sumber Ganda Mekar — Complete AI & LLM Reference Manifest (`llms-full.txt`)
+
+Domain: https://sumbergandamekar.com
+Last Updated: 2026-11-12
+Primary Region Served: Kota Bandung, Kabupaten Bandung, Jawa Barat, Jabodetabek, Indonesia
+
+---
+
+## 1. Identitas Hukum, Perpajakan & Kepemimpinan Perseroan
+
+- **Nama Perseroan:** PT. Sumber Ganda Mekar (`PT SUMBER GANDA MEKAR`)
+- **Slogan Resmi:** JUAL BELI BESI TUA/BARU - RANGKA BETON/LOGAM - TIANG LISTRIK/TELP - KONSTRUKSI BAJA DAN PAKAN TERNAK
+- **Akta Pendirian:** 19 April 2010 — Akta No. 6, Notaris Kristi Andana Yulianes, SH.
+- **Akta Perubahan Terbaru:** 08 Oktober 2026 — Akta No. 06, Notaris Runa Febrian, S.H., M.Kn.
+- **SK Menteri Hukum RI:** `AHU-0106760.AH.01.02.Tahun 2026`
+- **Nomor Induk Berusaha (NIB):** `9120101121498` (20 KBLI Aktif)
+- **NPWP:** `031.199.979.1-429.000` (NPWP 16 Digit: `0311999791429000`)
+- **Status Pajak (PKP):** Pengusaha Kena Pajak (PKP) Resmi — Surat Pengukuhan PKP Nomor `S-00313/SPPKP-CT/KPP.0903/2025`. PT. Sumber Ganda Mekar siap menerbitkan Faktur Pajak PPN untuk pengadaan B2B, tender BUMN, instansi pemerintah, dan industri swasta.
+- **Modal Dasar Perseroan:** Rp 2.000.000.000,- (Dua Miliar Rupiah)
+
+### Jajaran Dewan Komisaris, Direksi & Tim Inti
+- **Pendiri & Komisaris:** H. Maman Suherman
+  - *Kutipan Resmi:* "Kami berkomitmen agar usaha terus berkembang dan tetap stabil. Menjaga hubungan bisnis yang baik adalah prinsip dasar yang menopang stabilitas perusahaan."
+- **Komisaris Utama:** Hj. Teti Wenti
+- **Direktur Utama:** Hj. Nunung, S.Pd.
+- **Direktur:** H. Ecep Mutiara & H. Sumarsana
+- **Marketing & Administrasi (PIC Fast Response):** CP. Irwan (Irwan Setiawan: `0821-1780-0626`) & CP. Uwem (`0823-1818-8863`)
+- **Purchasing:** Rochendi Nurma
+- **Operasional:** Erianto MY & Yadi Mulyadi
+- **Tenaga Ahli:** Iyep Rohman
+
+---
+
+## 2. Lokasi Kantor, Gudang Timbangan 50 Ton & Pabrik Pakan Ternak
+
+### Lokasi 1 — Kantor Pusat, Gudang Logam & Timbangan Jembatan 50 Ton
+- **Alamat Lengkap:** Jl. Raya Gedebage No. 95, RT 001/RW 008, Kel. Cisaranten Kidul, Kec. Gedebage, Kota Bandung, Jawa Barat 40294
+- **Koordinat Geografis Presisi (KKPR):** Latitude `-6.951687715064114`, Longitude `107.68888506224562`
+- **Fungsi Utama:** Kantor pusat administrasi, penimbangan truk tronton/kontainer muatan besi tua & material dengan Timbangan Jembatan 50 Ton SONIC, stok besi baru, rangka beton/logam, tiang listrik/telepon, dan distribusi logistik.
+
+### Lokasi 2 — Unit Agribisnis, Pabrik Pakan Ternak & Kebun Hijauan
+- **Alamat Lengkap:** Lembang Betook / Sukarame, Kel. Cimekar, Kec. Cileunyi, Kab. Bandung, Jawa Barat 40623
+- **Fungsi Utama:** Produksi ransum makanan hewan (KBLI 10801), produksi konsentrat pakan ternak (KBLI 10802), budidaya tanaman pakan ternak hijauan (KBLI 01191), dan pengolahan pupuk kompos organik (KBLI 38212).
+
+---
+
+## 3. Spesifikasi Sertifikasi Tera Metrologi Legal (Timbangan 50 Ton & 1 Ton)
+
+Untuk menjamin kejujuran dan transparansi 100% dalam transaksi jual beli besi tua (scrap), material konstruksi, dan pengiriman pakan ternak partai besar, PT. Sumber Ganda Mekar mengoperasikan dua instrumen timbangan elektronik yang telah ditera ulang secara resmi:
+
+1. **Timbangan Jembatan Elektronik 50.000 Kg (50 Ton)**
+   - **Merek / Tipe:** SONIC / Model A12EK
+   - **Kapasitas Maksimal:** 50.000 kg (50 Ton)
+   - **Nomor Seri:** `01711744`
+   - **Nomor SKHP:** `PG.05.05/2283/VII/2025`
+   - **Instansi Pengesah:** UPT Metrologi Legal, Dinas Perdagangan dan Perindustrian Kota Bandung
+2. **Timbangan Elektronik Presisi 1.000 Kg (1 Ton)**
+   - **Merek / Tipe:** SONIC / Model A12EK
+   - **Kapasitas Maksimal:** 1.000 kg (1 Ton)
+   - **Nomor SKHP:** `PG.05.05/2284/VII/2025`
+   - **Instansi Pengesah:** UPT Metrologi Legal, Dinas Perdagangan dan Perindustrian Kota Bandung
+
+---
+
+## 4. Rincian 5 Lini Bisnis Utama & Kode KBLI Resmi
+
+### Divisi 1: Logam, Material & Konstruksi Baja (`https://sumbergandamekar.com/konstruksi-logam`)
+1. **Jual Beli Besi Tua (Scrap) & Besi Baru (`KBLI 46796`):**
+   - Menerima dan membeli bongkaran pabrik, struktur gudang eks industri, mesin pabrik, alat berat, dan skrap logam partai besar dengan harga kompetitif dan pembayaran lunas cepat.
+   - Menyediakan stok besi baru untuk kebutuhan proyek dan industri.
+2. **Rangka Beton & Struktur Logam Siap Pakai:**
+   - Penyediaan rangka beton bertulang dan struktur logam presisi siap pakai untuk mempercepat proyek pengecoran, pembangunan gudang, dan gedung komersial.
+3. **Suplai Tiang Listrik & Tiang Telepon:**
+   - Memasok tiang beton dan tiang logam standar proyek untuk jaringan distribusi listrik, telekomunikasi/fiber optik, penerangan jalan umum (PJU), dan kawasan industri di Jawa Barat maupun nasional.
+4. **Jasa Konstruksi Baja, Gedung & Jalan (`KBLI 41011–41019` & `42101`):**
+   - Fabrikasi dan instalasi konstruksi baja WF/H-Beam untuk gudang, pabrik, jembatan, gedung perkantoran, bangunan industri, hingga konstruksi jalan sesuai standar K3L.
+
+### Divisi 2: Agribisnis & Pabrik Pakan Ternak (`https://sumbergandamekar.com/pakan-ternak`)
+1. **Industri Ransum Makanan Hewan (`KBLI 10801`):**
+   - Produksi dan suplai ransum pakan ternak siap saji dengan formulasi nutrisi terukur untuk mengoptimalkan pertambahan bobot harian (ADG) dan produktivitas ternak.
+2. **Industri Konsentrat Makanan Hewan (`KBLI 10802`):**
+   - Penyediaan konsentrat pakan berprotein tinggi untuk penggemukan sapi potong, sapi perah, domba/kambing, dan unggas langsung dari fasilitas produksi di Gedebage & Cileunyi.
+3. **Pertanian Tanaman Pakan Ternak & Kompos Organik (`KBLI 01191` & `38212`):**
+   - Budidaya hijauan tanaman pakan ternak segar serta produksi pupuk kompos organik terfermentasi matang untuk peternakan, perkebunan, dan reklamasi lahan.
+
+---
+
+## 5. Tanya Jawab Teknis B2B (Frequently Asked Questions)
+
+- **Q: Apakah PT. Sumber Ganda Mekar berstatus PKP dan bisa menerbitkan Faktur Pajak PPN untuk tender/perusahaan?**
+  - **A:** Ya. PT. Sumber Ganda Mekar berstatus Pengusaha Kena Pajak (PKP) resmi berdasarkan Surat Pengukuhan PKP Nomor `S-00313/SPPKP-CT/KPP.0903/2025` dengan NPWP `031.199.979.1-429.000` dan NIB `9120101121498`. Kami siap menerbitkan Faktur Pajak PPN resmi untuk kebutuhan tender pemerintah, BUMN, maupun korporasi swasta.
+- **Q: Bagaimana jaminan keakuratan timbangan saat transaksi jual beli besi tua (scrap) partai besar?**
+  - **A:** Seluruh muatan ditimbang menggunakan Timbangan Jembatan Elektronik kapasitas 50.000 Kg (50 Ton) Merek SONIC Tipe A12EK (No. Seri `01711744`, SKHP `PG.05.05/2283/VII/2025`) dan Timbangan Elektronik 1.000 Kg (`PG.05.05/2284/VII/2025`) yang telah disahkan dan ditera ulang oleh UPT Metrologi Legal Disdagin Kota Bandung. Penjual maupun pembeli dapat menyaksikan angka indikator digital secara langsung di gudang Gedebage.
+- **Q: Berapa kapasitas minimal pemesanan tiang listrik, rangka beton, konstruksi baja, dan pakan ternak?**
+  - **A:** Kami melayani pengadaan skala proyek, grosir, dan partai besar B2B (mulai dari pengiriman armada truk/tronton untuk material logam, tiang listrik/telepon, rangka beton, dan pakan ternak curah/karung, hingga kontrak konstruksi baja terpadu). Hubungi CP. Irwan atau CP. Uwem untuk penyesuaian kuota proyek Anda.
+- **Q: Di mana lokasi gudang penimbangan besi dan pabrik pakan ternak PT. Sumber Ganda Mekar?**
+  - **A:** Kantor pusat dan Gudang Timbangan Jembatan 50 Ton berlokasi di Jl. Raya Gedebage No. 95, RT 001/RW 008, Kel. Cisaranten Kidul, Kec. Gedebage, Kota Bandung 40294. Sedangkan fasilitas operasional agribisnis, kebun hijauan, dan pengolahan pakan ternak berlokasi di Lembang Betook / Sukarame, Kel. Cimekar, Kec. Cileunyi, Kab. Bandung 40623.
+- **Q: Siapa kontak resmi (PIC) untuk penawaran harga cepat via WhatsApp?**
+  - **A:** Anda dapat menghubungi PIC Marketing & Operasional resmi kami secara langsung melalui WhatsApp atau telepon: **CP. Irwan (`0821-1780-0626` / `https://wa.me/6282117800626`)**, **CP. Uwem (`0823-1818-8863` / `https://wa.me/6282318188863`)**, atau **Hotline Kantor Pusat (`0813-2299-9910` / `https://wa.me/6281322999910`)**.
+
+## ENSIKLOPEDIA & INDEKS 45 ARTIKEL SPESIFIKASI TEKNIS B2B (/wawasan/)
+Hub Indeks: https://sumbergandamekar.com/wawasan/
+
+### [01] Panduan Harga & Prosedur Jual Beli Besi Tua Eks-Pabrik di Bandung Partai Besar
+- **URL**: https://sumbergandamekar.com/wawasan/harga-jual-beli-besi-tua-pabrik-bandung.html
+- **Klaster**: Besi Tua & Timbangan 50 Ton (KBLI 46796 — SCRAP LOGAM)
+- **Ringkasan Eksekutif**:
+  - Klasifikasi harga besi tua (scrap) industri ditentukan oleh grade ketebalan material (HMS 1/2, potongan WF/H-Beam, plat kapal, eks-mesin cor, dan gram bubut) serta kemurnian bebas kontaminan non-logam.
+  - PT. Sumber Ganda Mekar melayani pembelian scrap eks-pabrik partai besar di Bandung dengan penimbangan transparan di Timbangan Jembatan Elektronik 50.000 Kg (50 Ton) Merek SONIC Tipe A12EK (No. Seri 01711744).
+  - Transaksi didukung legalitas Perseroan Terbatas (NIB 9120101121498, KBLI 46796) dan status PKP Resmi (S-00313/SPPKP-CT/KPP.0903/2025) untuk kepatuhan audit pelepasan aset perusahaan.
+
+### [02] Pentingnya Timbangan Jembatan Elektronik 50 Ton Tera UPT Metrologi Legal dalam Transaksi Scrap Logam
+- **URL**: https://sumbergandamekar.com/wawasan/jaminan-timbangan-jembatan-50-ton-metrologi-bandung.html
+- **Klaster**: Besi Tua & Timbangan 50 Ton (KBLI 46796 — METROLOGI LEGAL)
+- **Ringkasan Eksekutif**:
+  - Selisih akurasi timbangan sebesar 2%–5% pada transaksi scrap 40 ton dapat merugikan pemilik barang hingga puluhan juta rupiah per pengiriman.
+  - PT. Sumber Ganda Mekar mengoperasikan Timbangan Jembatan Elektronik kapasitas 50.000 Kg (50 Ton) Merek SONIC Tipe A12EK (No. Seri 01711744) yang disahkan oleh UPT Metrologi Legal Disdagin Kota Bandung.
+  - Tersedia pula instrumen kedua berupa Timbangan Elektronik SONIC Tipe A12EK kapasitas 1.000 Kg (SKHP PG.05.05/2284/VII/2025) untuk penimbangan logam bernilai tinggi dan bundel presisi.
+
+### [03] Jasa Borong Bongkaran Pabrik, Gudang, dan Struktur Baja Tua di Jawa Barat
+- **URL**: https://sumbergandamekar.com/wawasan/borong-bongkaran-gedung-pabrik-konstruksi-baja.html
+- **Klaster**: Besi Tua & Timbangan 50 Ton (KBLI 46796 & 41013 — BONGKARAN)
+- **Ringkasan Eksekutif**:
+  - Layanan terpadu pembelian sekaligus pembongkaran (dismantling) struktur gudang baja, bangunan pabrik tua, silo, dan instalasi perpipaan industri secara aman sesuai standar K3L.
+  - Kombinasi keahlian konstruksi baja (KBLI 41013) dan perdagangan besar scrap logam (KBLI 46796) memastikan proses turun rangka baja berjalan terukur tanpa merusak bangunan sekitar.
+  - Valuasi dapat dilakukan dengan sistem beli borongan di tempat (lump-sum) maupun sistem timbang per kilogram di Timbangan Jembatan 50 Ton SONIC Gedebage.
+
+### [04] Prosedur Pelepasliaran & Jual Beli Scrap Eks-Mesin Pabrik dan Alat Berat (KBLI 46796)
+- **URL**: https://sumbergandamekar.com/wawasan/jual-beli-besi-tua-eks-alat-berat-mesin-industri.html
+- **Klaster**: Besi Tua & Timbangan 50 Ton (KBLI 46796 — EKS MESIN & ALAT BERAT)
+- **Ringkasan Eksekutif**:
+  - Penyerapan aset afkir berupa mesin tekstil, boiler uap, chiller industri, genset kapasitas besar, turbin, hingga unit alat berat (excavator, bulldozer, forklift, crane) yang sudah tidak ekonomis.
+  - Komponen mesin industri memiliki komposisi baja paduan (alloy steel), besi tuang (cast iron), dan tembaga/kuningan yang menuntut valuasi teknis akurat.
+  - Dilengkapi Berita Acara Pemusnahan/Scrap Aset dan Faktur Pajak PKP untuk kepastian penghapusan buku aset tetap (fixed asset write-off) perusahaan.
+
+### [05] Cara Menghitung Estimasi Tonase Besi Tua Sisa Proyek Konstruksi & Potongan Baja
+- **URL**: https://sumbergandamekar.com/wawasan/cara-menghitung-tonase-besi-scrap-proyek.html
+- **Klaster**: Besi Tua & Timbangan 50 Ton (KBLI 46796 — ESTIMASI TONASE)
+- **Ringkasan Eksekutif**:
+  - Berat jenis baja karbon standar adalah 7.850 kg/m³ (7,85 gram/cm³), yang menjadi dasar rumus matematis perhitungan estimasi tonase seluruh profil besi dan plat baja.
+  - Untuk tumpukan scrap acak (mixed scrap), faktor rongga udara (void ratio) di dalam bak truk berkisar antara 40% hingga 65% tergantung kerapian pemotongan.
+  - Verifikasi akhir tonase wajib menggunakan Timbangan Jembatan 50 Ton SONIC A12EK yang ditera oleh UPT Metrologi Legal Kota Bandung untuk menggantikan angka taksiran kasar.
+
+### [06] Suplai Bahan Baku Besi Scrap Terpilah untuk Industri Peleburan Baja (Foundry)
+- **URL**: https://sumbergandamekar.com/wawasan/suplier-besi-scrap-untuk-pabrik-peleburan-baja.html
+- **Klaster**: Besi Tua & Timbangan 50 Ton (KBLI 46796 — SUPLAI FOUNDRY)
+- **Ringkasan Eksekutif**:
+  - Penyediaan bahan baku besi scrap terpilah (sorted & sized ferrous scrap) untuk pabrik peleburan baja (induction furnace / EAF) dan industri pengecoran logam (foundry).
+  - Kualitas scrap dikontrol ketat: ukuran potong sesuai dimensi mulut tungku, bebas unsur berbahaya (sealed сосуд/tabung tertutup, oli berlebih, timbal, atau sampah non-logam).
+  - Setiap pengiriman dilengkapi tiket Timbangan Jembatan 50 Ton SONIC A12EK Tera Resmi dan Faktur Pajak PPN (PKP) untuk kelancaran rantai pasok B2B.
+
+### [07] Layanan Jual Beli Besi Tua & Logam Bekas Kawasan Industri Rancaekek, Cileunyi & Sumedang
+- **URL**: https://sumbergandamekar.com/wawasan/jual-beli-besi-tua-kawasan-industri-rancaekek-cileunyi.html
+- **Klaster**: Besi Tua & Timbangan 50 Ton (KBLI 46796 — BANDUNG TIMUR)
+- **Ringkasan Eksekutif**:
+  - Kedekatan geografis luar biasa: Gudang Timbangan 50 Ton di Jl. Raya Gedebage No. 95 dan fasilitas operasional di Cimekar Cileunyi berada tepat di jantung koridor industri Bandung Timur.
+  - Respon survei dan penjemputan armada dapat dilakukan pada hari yang sama (same-day dispatch) untuk pabrik di Rancaekek, Cileunyi, Cicalengka, Majalaya, dan Sumedang.
+  - Menyerap scrap rutinan pabrik tekstil/garmen, pabrik makanan, eks-konstruksi gudang, hingga mesin industri afkir dengan pembayaran lunas seketika.
+
+### [08] Mitra Penyerapan Scrap Logam Pabrik Area Cimahi, Padalarang & Bandung Barat
+- **URL**: https://sumbergandamekar.com/wawasan/jual-beli-besi-tua-cimahi-padalarang-bandung-barat.html
+- **Klaster**: Besi Tua & Timbangan 50 Ton (KBLI 46796 — BANDUNG BARAT & CIMAHI)
+- **Ringkasan Eksekutif**:
+  - Akses tol langsung (Tol Purbaleunyi / Padaleunyi hingga Exit Gedebage/Buahbatu) memudahkan mobilisasi truk tronton dari kawasan industri Cimahi, Batujajar, dan Padalarang ke Timbangan 50 Ton Gedebage.
+  - Melayani pabrik logam, kimia, farmasi, tekstil, dan kontraktor proyek kereta cepat/infrastruktur di Bandung Barat.
+  - Jaminan timbangan jujur UPT Metrologi Legal Disdagin Kota Bandung (SONIC A12EK 50.000 Kg) dan kelengkapan legalitas PKP.
+
+### [09] Ekspansi Layanan Borongan Besi Tua Pabrik Kawasan Industri Karawang, Cikarang & Purwakarta
+- **URL**: https://sumbergandamekar.com/wawasan/jual-beli-besi-tua-karawang-bekasi-cikarang-purwakarta.html
+- **Klaster**: Besi Tua & Timbangan 50 Ton (KBLI 46796 — KORIDOR INDUSTRI JABAR)
+- **Ringkasan Eksekutif**:
+  - Melayani tender pelepasan scrap pabrik, bongkaran gudang, dan mesin industri afkir di kawasan industri Bukit Indah City (Purwakarta), Suryacipta, KIIC (Karawang), hingga Jababeka & MM2100 (Cikarang/Bekasi).
+  - Kualifikasi administrasi korporat lengkap: Akta Perubahan 2026 (SK Menkumham AHU-0106760.AH.01.02.Tahun 2026), NIB 9120101121498 (20 KBLI Aktif), NPWP, dan PKP Resmi.
+  - Kapasitas modal kuat (Modal Dasar Rp 2 Miliar) menjamin penyelesaian pembayaran partai besar tanpa termin yang berlarut-larut.
+
+### [10] Mengapa Pabrik Wajib Menjual Aset Scrap ke Perusahaan Berbadan Hukum PT & PKP Resmi?
+- **URL**: https://sumbergandamekar.com/wawasan/keuntungan-transaksi-scrap-dengan-perusahaan-pkp-resmi.html
+- **Klaster**: Besi Tua & Timbangan 50 Ton (KBLI 46796 — KEPATUHAN PAJAK PKP)
+- **Ringkasan Eksekutif**:
+  - Transaksi penjualan sisa bahan baku (scrap) dan aset bekas oleh perusahaan PKP wajib mengikuti ketentuan PPN dan pencatatan akuntansi yang dapat dipertanggungjawabkan saat pemeriksaan pajak.
+  - Menjual scrap ke perorangan non-PKP berisiko menimbulkan temuan audit internal, ketidaksesuaian bukti potong/pungut pajak, hingga sengketa tonase.
+  - PT. Sumber Ganda Mekar berstatus PKP Resmi (Surat Pengukuhan PKP Nomor S-00313/SPPKP-CT/KPP.0903/2025, NPWP 031.199.979.1-429.000) dengan sertifikasi Timbangan 50 Ton UPT Metrologi Legal.
+
+### [11] Tabel Berat & Spesifikasi Besi WF (Wide Flange) dan H-Beam Standar SNI untuk Konstruksi Gudang
+- **URL**: https://sumbergandamekar.com/wawasan/tabel-berat-spesifikasi-besi-wf-h-beam-sni.html
+- **Klaster**: Besi Baru, Baja Profil & Rangka Beton (SUPLAI BAJA PROFIL — WF & H-BEAM)
+- **Ringkasan Eksekutif**:
+  - Baja profil Wide Flange (WF) dan H-Beam standar SNI memiliki panjang standar 12 meter per batang dengan rasio dimensi web (badan) dan flange (sayap) yang presisi.
+  - Verifikasi berat aktual per batang wajib dilakukan menggunakan Timbangan Jembatan 50 Ton atau Timbangan 1.000 Kg SONIC A12EK untuk memastikan material bukan besi banci (toleransi di luar batas SNI).
+  - PT. Sumber Ganda Mekar menyuplai besi WF dan H-Beam partai besar lengkap dengan Faktur Pajak PPN (PKP Resmi) dari gudang Jl. Raya Gedebage No. 95, Bandung.
+
+### [12] Suplier Besi Beton Polos & Ulir Partai Besar untuk Proyek Gedung di Bandung
+- **URL**: https://sumbergandamekar.com/wawasan/distributor-besi-beton-polos-ulir-proyek-bandung.html
+- **Klaster**: Besi Baru, Baja Profil & Rangka Beton (SUPLAI BESI BETON — BjTP & BjTS)
+- **Ringkasan Eksekutif**:
+  - Penyediaan besi beton polos (BjTP 280) dan besi beton ulir/deformed (BjTS 420B) panjang standar 12 meter untuk proyek pondasi, gedung, jalan beton, dan jembatan.
+  - Jaminan kesesuaian tonase pengiriman melalui penimbangan di Timbangan Jembatan 50.000 Kg dan Timbangan Elektronik 1.000 Kg SONIC A12EK di Gedebage.
+  - Dilengkapi Faktur Pajak PPN resmi (status PKP terdaftar) untuk kelancaran penagihan termin kontraktor dan pengadaan BUMN/Swasta.
+
+### [13] Efisiensi Penggunaan Rangka Beton & Logam Siap Pakai untuk Percepatan Pengecoran Proyek
+- **URL**: https://sumbergandamekar.com/wawasan/fabrikasi-rangka-beton-bertulang-siap-pakai.html
+- **Klaster**: Besi Baru, Baja Profil & Rangka Beton (STRUKTUR SIAP PAKAI — RANGKA BETON)
+- **Ringkasan Eksekutif**:
+  - Penggunaan rangka beton bertulang dan struktur logam siap pakai memangkas waktu kerja pembesian di lapangan hingga 35%–50% dan menekan waste potongan besi (scrap loss) di bawah 2%.
+  - Dirakit secara presisi di workshop PT. Sumber Ganda Mekar sesuai gambar kerja (shop drawing) untuk kolom praktis, sloof, balok, pondasi footplat, dan struktur gudang.
+  - Solusi ideal bagi proyek dengan lahan kerja sempit di perkotaan Bandung atau proyek dengan target serah terima yang ketat.
+
+### [14] Panduan Memilih Besi Kanal CNP, UNP, Besi Siku, dan Plat Hitam untuk Fabrikasi Industri
+- **URL**: https://sumbergandamekar.com/wawasan/spesifikasi-besi-cnp-unp-siku-plat-baja-industri.html
+- **Klaster**: Besi Baru, Baja Profil & Rangka Beton (SUPLAI MATERIAL LOGAM — CNP, UNP, PLAT)
+- **Ringkasan Eksekutif**:
+  - Profil sekunder seperti Kanal C (CNP/Lip Channel), Kanal U (UNP), Besi Siku (Equal Angle), dan Plat Baja Hitam (Hot Rolled Steel Plate) memegang peran krusial sebagai purlin atap, girt dinding, bracing, dan baseplate.
+  - Pemilihan ketebalan milimeter yang tepat pada CNP dan plat sambungan menentukan ketahanan gudang terhadap beban angin hisap dan getaran mesin pabrik.
+  - Tersedia lengkap untuk pengadaan B2B di PT. Sumber Ganda Mekar dengan jaminan timbangan resmi SONIC A12EK.
+
+### [15] Panduan Pengadaan Material Besi & Baja dengan Faktur Pajak PPN (PKP) untuk Tender Pemerintah & Swasta
+- **URL**: https://sumbergandamekar.com/wawasan/pengadaan-material-besi-baja-faktur-pajak-ppn.html
+- **Klaster**: Besi Baru, Baja Profil & Rangka Beton (PENGADAAN B2B — FAKTUR PAJAK PKP)
+- **Ringkasan Eksekutif**:
+  - Kontraktor pemenang tender pemerintah (APBN/APBD), BUMN, maupun korporasi swasta wajib mengkreditkan Pajak Masukan (PPN) dari suplier material yang berstatus Pengusaha Kena Pajak (PKP) resmi.
+  - PT. Sumber Ganda Mekar terdaftar sebagai PKP resmi berdasarkan Surat Pengukuhan PKP Nomor S-00313/SPPKP-CT/KPP.0903/2025 dengan NPWP 031.199.979.1-429.000.
+  - Didukung 20 KBLI Aktif (NIB 9120101121498) dan SK Kemenkumham terbaru AHU-0106760.AH.01.02.Tahun 2026.
+
+### [16] Perbedaan Fungsi Struktur Besi WF vs H-Beam pada Konstruksi Bangunan Bertingkat & Jembatan
+- **URL**: https://sumbergandamekar.com/wawasan/perbedaan-besi-wf-dan-h-beam-untuk-struktur.html
+- **Klaster**: Besi Baru, Baja Profil & Rangka Beton (REKAYASA STRUKTUR — WF VS H-BEAM)
+- **Ringkasan Eksekutif**:
+  - Profil WF (Wide Flange) memiliki momen inersia sumbu kuat (Ix) yang tinggi per satuan berat, sehingga paling efisien digunakan sebagai balok bentang panjang dan kuda-kuda rafter.
+  - Profil H-Beam memiliki lebar sayap yang sama dengan tinggi badannya (H = B), memberikan kekakuan sumbu lemah (Iy) yang superior untuk menahan beban tekan kolom dan tiang pancang.
+  - Pemilihan kombinasi H-Beam sebagai kolom dan WF sebagai rafter menghasilkan struktur gudang yang kokoh sekaligus hemat tonase baja.
+
+### [17] Cara Menghitung Kebutuhan Tonase Besi Beton untuk Pondasi & Lantai Gudang Alat Berat
+- **URL**: https://sumbergandamekar.com/wawasan/estimasi-kebutuhan-besi-beton-pondasi-gudang.html
+- **Klaster**: Besi Baru, Baja Profil & Rangka Beton (ESTIMASI MATERIAL — PONDASI & LANTAI)
+- **Ringkasan Eksekutif**:
+  - Lantai gudang logistik dan manuver truk tronton 50 ton membutuhkan penulangan ganda (double-layer rebar / wiremesh berat) dengan rasio besi 80–120 kg per m³ beton pada pondasi dan sloof.
+  - Penggunaan rangka beton bertulang siap pakai dari PT. Sumber Ganda Mekar mempercepat instalasi pile cap, pedestal kolom baja, dan tie beam.
+  - Seluruh suplai besi beton dan rangka siap pakai ditimbang akurat di Timbangan Jembatan 50 Ton SONIC A12EK Gedebage.
+
+### [18] Pusat Distribusi Material Logam & Rangka Konstruksi di Gedebage Kota Bandung
+- **URL**: https://sumbergandamekar.com/wawasan/suplier-material-logam-konstruksi-gedebage-bandung.html
+- **Klaster**: Besi Baru, Baja Profil & Rangka Beton (HUB LOGISTIK — GEDEBAGE BANDUNG)
+- **Ringkasan Eksekutif**:
+  - Berlokasi strategis di Jl. Raya Gedebage No. 95, RT 001/RW 008, Kel. Cisaranten Kidul, Kec. Gedebage, Kota Bandung 40294 (Koordinat KKPR: -6.951687715064114, 107.68888506224562).
+  - Pusat pengadaan terpadu satu pintu untuk besi tua/baru, rangka beton/logam siap pakai, tiang listrik/telepon, dan fabrikasi konstruksi baja.
+  - Dilengkapi fasilitas Timbangan Jembatan Elektronik 50.000 Kg (50 Ton) dan Timbangan 1.000 Kg Merek SONIC Tipe A12EK yang disahkan UPT Metrologi Legal Disdagin Kota Bandung.
+
+### [19] Mengenal Standar Mutu Baja Konstruksi (BJ 37, BJ 41, BJ 50) untuk Keamanan Struktur Bangunan
+- **URL**: https://sumbergandamekar.com/wawasan/standar-mutu-baja-konstruksi-proyek-infrastruktur.html
+- **Klaster**: Besi Baru, Baja Profil & Rangka Beton (STANDAR MUTU SNI — BJ 37 / SS400)
+- **Ringkasan Eksekutif**:
+  - Berdasarkan SNI 1729, mutu baja struktural diklasifikasikan menurut tegangan leleh minimum (fy) dan tegangan putus tarik minimum (fu): BJ 34, BJ 37 (setara JIS SS400 / ASTM A36), BJ 41, BJ 50, hingga BJ 55.
+  - Baja mutu BJ 37 (fy = 240 MPa, fu = 370 MPa) merupakan standar utama untuk konstruksi gudang, pabrik, jembatan ringan, dan tiang utilitas karena sifat mampu las (weldability) dan daktilitasnya yang sangat baik.
+  - PT. Sumber Ganda Mekar memastikan penggunaan baja sesuai spesifikasi rekayasa pada setiap proyek konstruksi baja dan pengadaan material.
+
+### [20] Tabel Spesifikasi & Ukuran Tiang Listrik Beton dan Besi (9m, 11m, 12m, 13m) Standar Proyek
+- **URL**: https://sumbergandamekar.com/wawasan/spesifikasi-ukuran-tiang-listrik-beton-besi-pln.html
+- **Klaster**: Pengadaan Tiang Listrik & Tiang Telepon (INFRASTRUKTUR UTILITAS — TIANG LISTRIK)
+- **Ringkasan Eksekutif**:
+  - Tiang listrik distribusi jaringan tegangan rendah (JTR) dan tegangan menengah (JTM) tersedia dalam panjang standar 9 meter, 11 meter, 12 meter, hingga 13 meter.
+  - Spesifikasi beban kerja tiang dinyatakan dalam satuan daN (Decanewton), umumnya mulai dari 100 daN, 200 daN, 350 daN, hingga 500 daN sesuai tarikan konduktor.
+  - PT. Sumber Ganda Mekar menyuplai tiang listrik beton prategang maupun tiang besi/baja pipa lengkap dengan Faktur Pajak PPN (PKP Resmi) untuk proyek di Bandung dan Jawa Barat.
+
+### [21] Pengadaan Tiang Telepon Logam & Tiang Jaringan Fiber Optik (FO) untuk ISP dan Telekomunikasi
+- **URL**: https://sumbergandamekar.com/wawasan/suplier-tiang-telepon-dan-fiber-optik-bandung.html
+- **Klaster**: Pengadaan Tiang Listrik & Tiang Telepon (INFRASTRUKTUR TELEKOMUNIKASI — TIANG FO)
+- **Ringkasan Eksekutif**:
+  - Ekspansi jaringan FTTH (Fiber To The Home) oleh ISP membutuhkan tiang telepon logam pipa bertingkat panjang 7 meter dan 9 meter yang presisi.
+  - Konstruksi pipa baja dengan sambungan kerucut (swaged/step pole) dan lapisan antikarat menjamin ketahanan tiang terhadap tarikan kabel optik udara (ADSS/Dropcore).
+  - PT. Sumber Ganda Mekar menyuplai tiang telepon/FO partai besar dengan kepastian kuantitas dan administrasi PKP resmi untuk vendor telekomunikasi.
+
+### [22] Panduan Pengadaan Tiang Listrik & Jaringan Distribusi untuk Developer Perumahan dan Kawasan Industri
+- **URL**: https://sumbergandamekar.com/wawasan/harga-pengadaan-tiang-listrik-perumahan-kawasan-industri.html
+- **Klaster**: Pengadaan Tiang Listrik & Tiang Telepon (UTILITAS KAWASAN — DEVELOPER & ESTATE)
+- **Ringkasan Eksekutif**:
+  - Perencanaan tiang listrik perumahan dan kawasan industri wajib menghitung jarak gawang (span) rata-rata 35–45 meter antar tiang.
+  - Kombinasi pengadaan tiang listrik, tiang PJU, dan tiang FO dalam satu vendor B2B menghemat biaya mobilisasi angkutan tronton/trailer hingga 25%.
+  - PT. Sumber Ganda Mekar menyediakan layanan suplai terpadu untuk developer properti dan pengelola kawasan industri lengkap dengan konstruksi sipil.
+
+### [23] Perbandingan Teknis Tiang Listrik Beton Prategang vs Tiang Baja/Besi Pipa untuk Infrastruktur
+- **URL**: https://sumbergandamekar.com/wawasan/perbedaan-tiang-listrik-beton-vs-tiang-baja-oktagonal.html
+- **Klaster**: Pengadaan Tiang Listrik & Tiang Telepon (KOMPARASI TEKNIS — BETON VS BAJA)
+- **Ringkasan Eksekutif**:
+  - Tiang listrik beton prategang unggul dalam ketahanan cuaca jangka panjang tanpa perawatan cat ulang dan kekakuan tinggi untuk beban tarikan besar (350–500 daN).
+  - Tiang listrik baja pipa/oktagonal unggul dalam bobot yang jauh lebih ringan (mudah dimobilisasi ke medan sempit/pegunungan) serta tahan terhadap benturan saat transportasi.
+  - PT. Sumber Ganda Mekar menyediakan kedua opsi material sehingga kontraktor dapat menyesuaikan pilihan dengan kondisi akses lokasi proyek.
+
+### [24] Pabrikasi & Suplai Tiang Penerangan Jalan Umum (PJU) dan Jalan Raya (KBLI 42101)
+- **URL**: https://sumbergandamekar.com/wawasan/suplier-tiang-pju-penerangan-jalan-umum-jawa-barat.html
+- **Klaster**: Pengadaan Tiang Listrik & Tiang Telepon (KBLI 42101 — TIANG PJU & JALAN RAYA)
+- **Ringkasan Eksekutif**:
+  - Tiang PJU (Penerangan Jalan Umum) tersedia dalam profil bulat bertingkat maupun oktagonal (segi delapan) dengan tinggi 7m, 9m, hingga 11m.
+  - Dilengkapi baseplate baja tebal berlubang baut angkur (anchor bolt) dan stang ornamen (single/double arm) untuk lampu LED maupun PJU Tenaga Surya (PJUTS).
+  - Terintegrasi dengan izin KBLI 42101 (Konstruksi Jalan Raya) dan PKP resmi PT. Sumber Ganda Mekar untuk pengadaan proyek dinas maupun swasta.
+
+### [25] Memahami Satuan Beban Kerja (daN - Decanewton) pada Spesifikasi Tiang Listrik (200 daN, 350 daN, 500 daN)
+- **URL**: https://sumbergandamekar.com/wawasan/cara-menghitung-beban-kerja-tiang-listrik-dan.html
+- **Klaster**: Pengadaan Tiang Listrik & Tiang Telepon (REKAYASA STRUKTUR — BEBAN KERJA daN)
+- **Ringkasan Eksekutif**:
+  - Satuan 1 daN (Decanewton) setara dengan 10 Newton atau kurang lebih 1,0197 kgf (kilogram-force) gaya tarik horizontal pada puncak tiang.
+  - Kode spesifikasi seperti "9/200" berarti panjang total tiang adalah 9 meter dengan kemampuan menahan beban kerja horizontal 200 daN (≈204 kgf) di titik 10–15 cm dari puncak.
+  - Pemilihan nilai daN yang tepat mencegah defleksi (lendutan) berlebih dan keretakan struktur akibat tarikan kabel konduktor dan tekanan angin.
+
+### [26] Manajemen Logistik Pengiriman & Penurunan Tiang Listrik Beton/Logam ke Lokasi Proyek
+- **URL**: https://sumbergandamekar.com/wawasan/logistik-pengiriman-instalasi-tiang-listrik-proyek.html
+- **Klaster**: Pengadaan Tiang Listrik & Tiang Telepon (LOGISTIK BERAT — DISTRIBUSI TIANG)
+- **Ringkasan Eksekutif**:
+  - Pengiriman tiang listrik panjang 9m–13m membutuhkan manajemen tumpukan kayu ganjal (dunnage) pada titik tumpu 0,21 L dari kedua ujung agar tiang tidak retak selama perjalanan.
+  - Verifikasi tonase muatan armada di Timbangan Jembatan 50 Ton SONIC A12EK memastikan beban angkutan aman dan sesuai regulasi jalan raya.
+  - Koordinasi titik penurunan (drop-point) di sepanjang jalur proyek mempercepat waktu pemasangan (erection) oleh tim lapangan.
+
+### [27] Syarat Legalitas Vendor Pengadaan Tiang Listrik & Telepon untuk Proyek BUMN dan Pemerintahan
+- **URL**: https://sumbergandamekar.com/wawasan/vendor-tiang-listrik-telepon-pkp-tender-pemerintah.html
+- **Klaster**: Pengadaan Tiang Listrik & Tiang Telepon (COMPLIANCE BUMN/PEMDA — VENDOR PKP)
+- **Ringkasan Eksekutif**:
+  - Pengadaan infrastruktur kelistrikan dan telekomunikasi pemerintah/BUMN mewajibkan dukungan suplier berbadan hukum PT dengan NIB aktif dan status PKP.
+  - PT. Sumber Ganda Mekar memiliki rekam jejak legalitas sejak 19 April 2010, Modal Dasar Rp 2 Miliar, 20 KBLI Aktif, serta SK Kemenkumham terbaru tahun 2026.
+  - Setiap transaksi suplai tiang dilengkapi Faktur Pajak PPN resmi (S-00313/SPPKP-CT/KPP.0903/2025) yang siap diaudit.
+
+### [28] Jasa Konstruksi Baja Berat untuk Pembangunan Gudang & Pabrik di Bandung dan Jawa Barat (KBLI 41013)
+- **URL**: https://sumbergandamekar.com/wawasan/jasa-konstruksi-baja-gudang-pabrik-bandung.html
+- **Klaster**: Jasa Konstruksi Baja, Gudang & Infrastruktur (KBLI 41013 — KONSTRUKSI GEDUNG INDUSTRI)
+- **Ringkasan Eksekutif**:
+  - PT. Sumber Ganda Mekar mengantongi izin usaha resmi KBLI 41013 (Konstruksi Gedung Industri) untuk pembangunan pabrik, bengkel, dan gudang logistik.
+  - Integrasi hulu-hilir: kami menyuplai langsung material baja profil (WF, H-Beam, CNP) dari gudang sendiri sehingga biaya konstruksi jauh lebih efisien tanpa markup berlapis.
+  - Seluruh material struktur yang masuk ke proyek diverifikasi bobot aktualnya pada Timbangan Jembatan 50 Ton SONIC A12EK di Gedebage.
+
+### [29] Simulasi & Komponen Biaya Konstruksi Gudang Rangka Baja WF per Meter Persegi Tahun 2026
+- **URL**: https://sumbergandamekar.com/wawasan/estimasi-biaya-konstruksi-baja-gudang-per-meter.html
+- **Klaster**: Jasa Konstruksi Baja, Gudang & Infrastruktur (ESTIMASI RAB — KONSTRUKSI GUDANG 2026)
+- **Ringkasan Eksekutif**:
+  - Biaya konstruksi rangka baja gudang dihitung berdasarkan rasio berat baja per meter persegi luas lantai (kg/m²) dikalikan harga satuan per kg terpasang.
+  - Rata-rata indeks berat struktur baja gudang satu lantai berkisar antara 28 kg/m² hingga 45 kg/m² tergantung lebar bentang dan tinggi kolom.
+  - Transparansi penimbangan material di Timbangan 50 Ton SONIC A12EK PT. Sumber Ganda Mekar memastikan pemilik proyek hanya membayar sesuai tonase baja aktual.
+
+### [30] Layanan Konstruksi Konvensional Gedung Perkantoran (KBLI 41012) & Bangunan Komersial di Bandung
+- **URL**: https://sumbergandamekar.com/wawasan/kontraktor-konstruksi-gedung-perkantoran-komersial.html
+- **Klaster**: Jasa Konstruksi Baja, Gudang & Infrastruktur (KBLI 41012 & 41014 — GEDUNG KOMERSIAL)
+- **Ringkasan Eksekutif**:
+  - Cakupan multi-KBLI resmi: Konstruksi Gedung Perkantoran (41012), Perbelanjaan/Ruko (41014), Hunian (41011), Kesehatan (41015), hingga Pendidikan (41016).
+  - Kombinasi struktur komposit baja-beton (Bondek/Floordeck + WF + Beton Bertulang) mempercepat waktu pembangunan gedung bertingkat hingga 35%.
+  - Didukung modal dasar perseroan Rp 2 Miliar dan pengalaman operasional sejak 19 April 2010 di Bandung.
+
+### [31] Tahapan Fabrikasi & Erection Konstruksi Jembatan Rangka Baja serta Struktur Bentang Lebar
+- **URL**: https://sumbergandamekar.com/wawasan/fabrikasi-dan-erection-jembatan-rangka-baja.html
+- **Klaster**: Jasa Konstruksi Baja, Gudang & Infrastruktur (STRUKTUR BENTANG LEBAR & JEMBATAN BAJA)
+- **Ringkasan Eksekutif**:
+  - Konstruksi jembatan rangka baja, jembatan penyeberangan, dan pipe rack industri membutuhkan presisi pemotongan CNC/plasma dan pengelasan struktural.
+  - Sambungan lapangan menggunakan baut mutu tinggi (High Tension Bolt / HTB A325) dengan pengujian torsi ketat pada setiap pelat buhul (gusset plate).
+  - Material profil H-Beam, WF, dan pelat baja tebal disuplai dan ditimbang langsung dari fasilitas 50 Ton PT. Sumber Ganda Mekar.
+
+### [32] Penerapan Standar K3L (Keselamatan, Kesehatan Kerja & Lingkungan) dan SPPL pada Proyek Konstruksi
+- **URL**: https://sumbergandamekar.com/wawasan/standar-k3l-dan-sppl-proyek-konstruksi-baja.html
+- **Klaster**: Jasa Konstruksi Baja, Gudang & Infrastruktur (STANDAR K3L & SPPL — ZERO ACCIDENT)
+- **Ringkasan Eksekutif**:
+  - Operasional PT. Sumber Ganda Mekar berpedoman penuh pada Pernyataan Mandiri K3L (Keselamatan, Kesehatan Kerja, dan Lingkungan) serta SPPL resmi.
+  - Pekerjaan di ketinggian (erection baja) dan pengangkatan beban berat wajib menerapkan prosedur APD lengkap, full body harness double lanyard, dan rigger bersertifikat.
+  - Pengelolaan limbah potongan logam dan sisa konstruksi dilakukan secara ramah lingkungan melalui fasilitas daur ulang berizin kami.
+
+### [33] Pengerjaan Konstruksi Jalan (KBLI 42101) & Perkerasan Area Manuver Truk 50 Ton di Kawasan Pabrik
+- **URL**: https://sumbergandamekar.com/wawasan/konstruksi-jalan-permukaan-tanah-infrastruktur-industri.html
+- **Klaster**: Jasa Konstruksi Baja, Gudang & Infrastruktur (KBLI 42101 — KONSTRUKSI JALAN INDUSTRI)
+- **Ringkasan Eksekutif**:
+  - Izin resmi KBLI 42101 mencakup konstruksi jalan raya, jalan lingkungan kawasan industri, area parkir truk berat, dan landasan kontainer.
+  - Perkerasan kaku (Rigid Pavement) menggunakan beton mutu tinggi (K-350 s/d K-500) dengan tulangan wiremesh/besi ulir dan dowel bar untuk menahan beban sumbu 50 ton.
+  - Pengalaman langsung mengelola operasional harian Timbangan Jembatan 50 Ton menjadikan desain perkerasan jalan kami terbukti tangguh.
+
+### [34] Strategi Perluasan & Penguatan Struktur Baja Gudang Tanpa Menghentikan Operasional Pabrik
+- **URL**: https://sumbergandamekar.com/wawasan/renovasi-dan-perluasan-struktur-baja-pabrik-aktif.html
+- **Klaster**: Jasa Konstruksi Baja, Gudang & Infrastruktur (RETROFIT & EKSPANSI PABRIK AKTIF)
+- **Ringkasan Eksekutif**:
+  - Metode pre-fabrikasi 95% di workshop meminimalkan pekerjaan pemotongan dan pengelasan di dalam area pabrik yang sedang beroperasi.
+  - Penambahan lantai mezzanine baja, kanopi loading dock, maupun perpanjangan bentang gudang dikerjakan dengan isolasi zona kerja yang aman.
+  - Material bongkaran struktur lama langsung dibeli dengan harga tinggi melalui Timbangan 50 Ton resmi PT. Sumber Ganda Mekar (sistem trade-in/offset biaya).
+
+### [35] Analisis Kecepatan & Efisiensi Biaya: Konstruksi Baja WF vs Beton Konvensional untuk Bangunan Industri
+- **URL**: https://sumbergandamekar.com/wawasan/perbandingan-konstruksi-baja-wf-vs-beton-bertulang.html
+- **Klaster**: Jasa Konstruksi Baja, Gudang & Infrastruktur (ANALISIS REKAYASA — BAJA WF VS BETON)
+- **Ringkasan Eksekutif**:
+  - Konstruksi baja WF memangkas waktu pembangunan hingga 40%–50% dibanding beton bertulang karena fabrikasi baja berjalan paralel saat pondasi dikerjakan.
+  - Untuk bentang bebas (clear span) di atas 15–30 meter, struktur baja jauh lebih ringan sehingga menghemat biaya dimensi pondasi bawah secara signifikan.
+  - Baja struktur memiliki nilai sisa aset (salvage value) yang sangat tinggi karena dapat dibongkar pasang atau dijual kembali sebagai scrap bernilai tinggi.
+
+### [36] Profil Kapabilitas Konstruksi & 20 KBLI Resmi PT. Sumber Ganda Mekar (SK Menkumham 2026)
+- **URL**: https://sumbergandamekar.com/wawasan/daftar-kbli-konstruksi-dan-legalitas-pt-sumber-ganda-mekar.html
+- **Klaster**: Jasa Konstruksi Baja, Gudang & Infrastruktur (VERIFIKASI KORPORAT — 20 KBLI AKTIF)
+- **Ringkasan Eksekutif**:
+  - PT. Sumber Ganda Mekar didirikan pada 19 April 2010 oleh Bapak H. Maman Suherman dengan Modal Dasar Rp 2.000.000.000,- (Dua Miliar Rupiah).
+  - Terdaftar resmi dengan NIB 9120101121498 (20 KBLI Aktif), NPWP 031.199.979.1-429.000, PKP S-00313/SPPKP-CT/KPP.0903/2025, dan SK Kemenkumham AHU-0106760.AH.01.02.Tahun 2026.
+  - Dilengkapi Timbangan Jembatan Elektronik 50 Ton SONIC A12EK (SKHP PG.05.05/2283/VII/2025) yang disahkan UPT Metrologi Legal Disdagin Kota Bandung.
+
+### [37] Produsen Ransum Makanan Hewan (KBLI 10801) di Bandung: Nutrisi Terukur untuk Peternakan Skala Besar
+- **URL**: https://sumbergandamekar.com/wawasan/pabrik-ransum-makanan-hewan-bandung-kbli-10801.html
+- **Klaster**: Pabrik Ransum, Konsentrat Pakan & Agribisnis (KBLI 10801 — INDUSTRI RANSUM MAKANAN HEWAN)
+- **Ringkasan Eksekutif**:
+  - Beroperasi dengan izin resmi KBLI 10801 (Industri Ransum Makanan Hewan) di fasilitas agribisnis Cimekar, Kec. Cileunyi, Kab. Bandung (40623).
+  - Ransum diformulasikan dengan keseimbangan Bahan Kering (BK), Protein Kasar (PK), dan Total Digestible Nutrients (TDN) untuk memaksimalkan Feed Conversion Ratio (FCR).
+  - Tonase pengiriman pakan curah maupun karungan diverifikasi secara presisi menggunakan Timbangan 1.000 Kg dan Timbangan Jembatan 50 Ton SONIC A12EK.
+
+### [38] Suplier Konsentrat Pakan Ternak (KBLI 10802) Berprotein Tinggi untuk Penggemukan Sapi Potong & Perah
+- **URL**: https://sumbergandamekar.com/wawasan/produsen-konsentrat-pakan-sapi-potong-perah-bandung.html
+- **Klaster**: Pabrik Ransum, Konsentrat Pakan & Agribisnis (KBLI 10802 — INDUSTRI KONSENTRAT PAKAN)
+- **Ringkasan Eksekutif**:
+  - Diproduksi berdasarkan izin resmi KBLI 10802 (Industri Konsentrat Makanan Hewan) untuk mengoptimalkan performa rumen sapi potong dan sapi perah.
+  - Meningkatkan Average Daily Gain (ADG / Pertambahan Bobot Badan Harian) sapi potong serta menjaga kuantitas dan Total Solid (TS) susu sapi perah.
+  - Tersedia untuk pengiriman partai besar ke sentra peternakan Lembang, Pangalengan, Cileunyi, Sumedang, Garut, Cianjur, dan seluruh Jawa Barat.
+
+### [39] Perbedaan Teknis Ransum Lengkap (Complete Feed) vs Konsentrat Pakan Ternak untuk Efisiensi ADG
+- **URL**: https://sumbergandamekar.com/wawasan/perbedaan-ransum-dan-konsentrat-pakan-ternak.html
+- **Klaster**: Pabrik Ransum, Konsentrat Pakan & Agribisnis (EDUKASI NUTRISI — KBLI 10801 VS 10802)
+- **Ringkasan Eksekutif**:
+  - Ransum Lengkap (KBLI 10801 / Complete Feed) sudah mengandung sumber serat (forage substitute) sehingga dapat diberikan langsung 100% tanpa perlu rumput segar.
+  - Konsentrat (KBLI 10802) adalah pakan penguat padat nutrisi yang wajib dikombinasikan dengan hijauan (rumput/silase/jerami) untuk menjaga fungsi kerjanya rumen.
+  - PT. Sumber Ganda Mekar memegang kedua izin industri (KBLI 10801 & 10802) sekaligus kebun hijauan sendiri (KBLI 01191).
+
+### [40] Formulasi Pakan & Konsentrat Penggemukan Domba/Kambing untuk Peternakan Kemitraan di Jawa Barat
+- **URL**: https://sumbergandamekar.com/wawasan/grosir-pakan-domba-kambing-penggemukan-jawa-barat.html
+- **Klaster**: Pabrik Ransum, Konsentrat Pakan & Agribisnis (PAKAN RUMINANSIA KECIL — DOMBA & KAMBING)
+- **Ringkasan Eksekutif**:
+  - Diformulasikan khusus untuk domba Priangan/Garut, domba Merino/Texel/Dorper, serta kambing potong dan kambing perah (Saanen/PE).
+  - Rasio Kalsium banding Fosfor (Ca:P = 2:1) dijaga ketat untuk mencegah kasus kencing batu (urolithiasis) pada domba jantan penggemukan intensif.
+  - Target pertambahan bobot harian (ADG) domba penggemukan mencapai 150–250 gram/ekor/hari dengan kualitas karkas padat dan rendah lemak berlebih.
+
+### [41] Distribusi Pakan Unggas Partai Besar untuk Peternakan Ayam Broiler, Layer & Bebek
+- **URL**: https://sumbergandamekar.com/wawasan/suplier-pakan-unggas-ayam-broiler-layer-partai-besar.html
+- **Klaster**: Pabrik Ransum, Konsentrat Pakan & Agribisnis (KBLI 01461, 01462, 01469 — SEKTOR UNGGAS)
+- **Ringkasan Eksekutif**:
+  - Didukung ekosistem perizinan terpadu: Industri Ransum/Konsentrat (KBLI 10801/10802) serta Budidaya Ayam Ras Pedaging (01461), Petelur (01462), dan Unggas Lainnya (01469).
+  - Menyuplai ransum dan konsentrat unggas dengan keseimbangan Energi Metabolis (EM) dan asam amino esensial (Lisin & Metionin).
+  - Jaminan akurasi berat karungan dan curah dengan Timbangan Elektronik 1.000 Kg dan Timbangan Jembatan 50 Ton SONIC A12EK.
+
+### [42] Pengelolaan Pertanian Tanaman Pakan Ternak (KBLI 01191) & Pasokan Hijauan di Cileunyi Bandung
+- **URL**: https://sumbergandamekar.com/wawasan/pertanian-tanaman-pakan-ternak-hijauan-cileunyi.html
+- **Klaster**: Pabrik Ransum, Konsentrat Pakan & Agribisnis (KBLI 01191 — TANAMAN PAKAN TERNAK)
+- **Ringkasan Eksekutif**:
+  - Beroperasi secara sah di bawah KBLI 01191 (Pertanian Tanaman Pakan Ternak) di Cimekar, Kec. Cileunyi, Kab. Bandung (40623).
+  - Menyediakan pasokan hijauan berkualitas tinggi yang dipanen pada umur potong optimal (sebelum berbunga tua) agar kandungan protein kasar maksimal dan lignin rendah.
+  - Bagian dari ekosistem ekonomi sirkular: kebun hijauan dipupuk menggunakan kompos organik produksi sendiri (KBLI 38212).
+
+### [43] Pengolahan Limbah Organik & Produksi Pupuk Kompos (KBLI 38212) untuk Pertanian Berkelanjutan
+- **URL**: https://sumbergandamekar.com/wawasan/produksi-pupuk-kompos-organik-kbli-38212-bandung.html
+- **Klaster**: Pabrik Ransum, Konsentrat Pakan & Agribisnis (KBLI 38212 — PRODUKSI KOMPOS ORGANIK)
+- **Ringkasan Eksekutif**:
+  - Berizin resmi KBLI 38212 (Produksi Kompos Sampah Organik) yang terintegrasi dengan KBLI 38110 (Pengumpulan Limbah Tidak Berbahaya).
+  - Kompos difermentasi sempurna secara termofilik hingga matang (rasio C/N < 20, suhu stabil, gembur, dan bebas biji gulma maupun patogen).
+  - Tersedia dalam partai karungan maupun curah tonase besar untuk perkebunan, proyek lanskap reklamasi lahan, dan pertanian Jawa Barat.
+
+### [44] Standar Penyimpanan Gudang Pakan Ternak Tonase Besar agar Bebas Aflatoksin & Jamur
+- **URL**: https://sumbergandamekar.com/wawasan/manajemen-penyimpanan-gudang-pakan-ternak-bebas-jamur.html
+- **Klaster**: Pabrik Ransum, Konsentrat Pakan & Agribisnis (SOP GUDANG PAKAN — BIOSECURITY & QC)
+- **Ringkasan Eksekutif**:
+  - Penyimpanan karung pakan wajib menggunakan palet (pallet) setinggi minimal 10–15 cm dari lantai beton dan berjarak 50 cm dari dinding untuk mencegah kondensasi uap air.
+  - Kadar air bahan pakan yang terjaga di bawah 13%–14% serta rotasi stok FIFO (First-In First-Out) mencegah pertumbuhan jamur Aspergillus penghasil racun Aflatoksin.
+  - PT. Sumber Ganda Mekar dapat sekaligus membangun gudang penyimpanan pakan berkonstruksi baja (KBLI 41013) dengan ventilasi standar industri.
+
+### [45] Skema Kontrak Suplai Rutin Pakan Ternak Harga Pabrik dari PT. Sumber Ganda Mekar untuk Koperasi & Agen
+- **URL**: https://sumbergandamekar.com/wawasan/kemitraan-kontrak-suplai-pakan-ternak-koperasi-peternak.html
+- **Klaster**: Pabrik Ransum, Konsentrat Pakan & Agribisnis (KONTRAK B2B — SUPLAI PAKAN TERNAK)
+- **Ringkasan Eksekutif**:
+  - Skema kontrak suplai bulanan/kuartalan melindungi koperasi peternak, feedlot, dan agen besar dari fluktuasi harga bahan baku musiman.
+  - Transparansi kuantitas 100%: setiap pengiriman terverifikasi pada Timbangan Elektronik 1.000 Kg dan Timbangan Jembatan 50 Ton SONIC A12EK resmi.
+  - Didukung legalitas perseroan yang kuat (Berdiri sejak 2010, Modal Dasar Rp 2 Miliar, PKP Resmi, SK Kemenkumham 2026).

@@ -1,0 +1,12 @@
+# Dependencies & Local Cache (Drive E workspace)
+node_modules/
+.npm-cache/
+
+# Vercel
+.vercel/
+
+# Logs & OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
