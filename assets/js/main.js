@@ -1,6 +1,7 @@
 /**
  * PT. SUMBER GANDA MEKAR — B2B Lead Generation & Google Ads CRO Engine
  * Domain: sumbergandamekar.com
+ * Single Point of Contact: CP. Uwem (0823-1818-8863)
  * Tracks all WhatsApp conversion triggers via Google Tag Manager (window.dataLayer)
  */
 
@@ -11,17 +12,12 @@ window.dataLayer = window.dataLayer || [];
  * Fires both `generate_lead_wa` and `whatsapp_lead_click` for full GTM compatibility
  */
 window.trackWhatsAppLead = function (agentName, division, serviceName, buttonLocation) {
-  const normalizedAgent = (agentName || 'irwan').toLowerCase();
+  const normalizedAgent = 'uwem';
   const normalizedDivision = (division || 'general').toLowerCase();
   const normalizedService = serviceName || 'konsultasi_umum';
   const normalizedLocation = buttonLocation || 'service_card';
 
-  const gtmAgentCode =
-    normalizedAgent === 'irwan' || normalizedAgent === 'cp_irwan'
-      ? 'cp_irwan'
-      : normalizedAgent === 'uwem' || normalizedAgent === 'cp_uwem'
-      ? 'cp_uwem'
-      : 'office_hotline';
+  const gtmAgentCode = 'cp_uwem';
 
   const gtmDivisionCode =
     normalizedDivision === 'logam' || normalizedDivision === 'logam_konstruksi'
@@ -57,13 +53,13 @@ window.trackWhatsAppLead = function (agentName, division, serviceName, buttonLoc
   window.dataLayer.push(payloadPrimary);
   window.dataLayer.push(payloadSecondary);
 
-  showConversionToast(normalizedAgent, normalizedService);
+  showConversionToast(normalizedService);
 };
 
 /**
  * Non-blocking visual feedback toast when a WhatsApp CTA is clicked
  */
-function showConversionToast(agent, service) {
+function showConversionToast(service) {
   let toast = document.getElementById('sgm-wa-toast');
   if (!toast) {
     toast = document.createElement('div');
@@ -73,18 +69,13 @@ function showConversionToast(agent, service) {
     document.body.appendChild(toast);
   }
 
-  const agentLabel =
-    agent === 'irwan' || agent === 'cp_irwan'
-      ? 'CP. Irwan (0821-1780-0626)'
-      : agent === 'uwem' || agent === 'cp_uwem'
-      ? 'CP. Uwem (0823-1818-8863)'
-      : 'Hotline Kantor (0813-2299-9910)';
+  const agentLabel = 'CP. Uwem (0823-1818-8863)';
 
   toast.innerHTML = `
     <span class="w-2 h-2 bg-[#EB2F33] shrink-0"></span>
     <div class="text-xs leading-snug">
       <p class="font-bold text-[#F8FAFC]">Menghubungkan ke WhatsApp Resmi...</p>
-      <p class="text-slate-300 mt-0.5">${agentLabel} • Layanan: <span class="uppercase font-semibold text-white">${service.replace(/_/g, ' ')}</span></p>
+      <p class="text-slate-300 mt-0.5">${agentLabel} • Layanan: <span class="uppercase font-semibold text-white">${(service || '').replace(/_/g, ' ')}</span></p>
     </div>
   `;
 
@@ -106,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const division = waLink.getAttribute('data-division') || 'general';
     const service = waLink.getAttribute('data-service') || 'konsultasi_b2b';
-    const agent = waLink.getAttribute('data-agent') || 'irwan';
+    const agent = 'uwem';
     const location = waLink.getAttribute('data-location') || 'service_card';
 
     window.trackWhatsAppLead(agent, division, service, location);
@@ -214,14 +205,28 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 5. Interactive B2B Quick Inquiry Composer (Custom WhatsApp Message Generator)
+  // 4. Interactive Price Catalog Tabs Controller
+  const priceTabBtns = document.querySelectorAll('[data-price-tab]');
+  const pricePanels = document.querySelectorAll('[data-price-panel]');
+  if (priceTabBtns.length > 0 && pricePanels.length > 0) {
+    priceTabBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const targetTab = btn.getAttribute('data-price-tab');
+        priceTabBtns.forEach((b) => b.classList.toggle('is-active', b === btn));
+        pricePanels.forEach((panel) => {
+          const panelKey = panel.getAttribute('data-price-panel');
+          panel.classList.toggle('hidden', panelKey !== targetTab);
+        });
+      });
+    });
+  }
+
+  // 5. Interactive B2B Quick Inquiry Composer (Custom WhatsApp Message Generator — CP. Uwem)
   const quickQuoteForm = document.getElementById('b2b-quick-quote-form');
   if (quickQuoteForm) {
     const serviceSelect = document.getElementById('quote-service');
     const volumeInput = document.getElementById('quote-volume');
     const companyInput = document.getElementById('quote-company');
-    const taxSelect = document.getElementById('quote-tax');
-    const btnIrwan = document.getElementById('quote-send-irwan');
     const btnUwem = document.getElementById('quote-send-uwem');
 
     function buildCustomWaUrl(phone, agentLabel, divisionCode) {
@@ -230,14 +235,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const serviceSlug = selectedOption ? selectedOption.value : 'konsultasi_b2b';
       const volumeText = volumeInput && volumeInput.value.trim() ? volumeInput.value.trim() : 'Partai Besar / B2B';
       const companyText = companyInput && companyInput.value.trim() ? companyInput.value.trim() : '-';
-      const taxText = taxSelect ? taxSelect.value : 'Butuh Faktur Pajak PPN (PKP)';
 
       const rawMessage =
-        `Halo ${agentLabel} (PT. Sumber Ganda Mekar), saya mengunjungi website sumbergandamekar.com dan ingin berkonsultasi cepat:\n\n` +
+        `Halo ${agentLabel} (PT. Sumber Ganda Mekar), saya mendapat informasi dari website sumbergandamekar.com dan ingin berkonsultasi cepat:\n\n` +
         `• *Layanan:* ${serviceText}\n` +
         `• *Estimasi Volume/Kebutuhan:* ${volumeText}\n` +
-        `• *Nama Perusahaan/Proyek:* ${companyText}\n` +
-        `• *Administrasi Pajak:* ${taxText}\n\n` +
+        `• *Nama Perusahaan/Lokasi:* ${companyText}\n\n` +
         `Mohon informasi harga dan ketersediaan jadwal. Terima kasih.`;
 
       return {
@@ -249,11 +252,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateQuickQuoteLinks() {
       const pageDivision = quickQuoteForm.getAttribute('data-form-division') || 'general';
-      if (btnIrwan) {
-        const resIrwan = buildCustomWaUrl('6282117800626', 'Pak Irwan', pageDivision);
-        btnIrwan.setAttribute('href', resIrwan.url);
-        btnIrwan.setAttribute('data-service', resIrwan.serviceSlug);
-      }
       if (btnUwem) {
         const resUwem = buildCustomWaUrl('6282318188863', 'Pak Uwem', pageDivision);
         btnUwem.setAttribute('href', resUwem.url);
@@ -261,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    [serviceSelect, volumeInput, companyInput, taxSelect].forEach((el) => {
+    [serviceSelect, volumeInput, companyInput].forEach((el) => {
       if (el) {
         el.addEventListener('input', updateQuickQuoteLinks);
         el.addEventListener('change', updateQuickQuoteLinks);
